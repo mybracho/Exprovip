@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="415fe01a-e4b8-4165-8283-31adf9edadbf">
+  <name>Exprovip</name>
+  <synonym>
+    <key>ru</key>
+    <value>Exprovip</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

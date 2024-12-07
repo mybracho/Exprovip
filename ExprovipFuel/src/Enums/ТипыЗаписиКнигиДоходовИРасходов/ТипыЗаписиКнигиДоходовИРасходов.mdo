@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b2c3598-89ee-4631-8b77-367f2178e4a1">
+  <producedTypes>
+    <refType typeId="94295ddf-712d-4894-89fe-cc15ebeec2c6" valueTypeId="727bce86-d465-45f2-8e4e-f46ea92ebc5b"/>
+    <listType typeId="0770c10d-14b5-4193-9b30-40520489de10" valueTypeId="78084d14-c494-4625-91c5-1e5107fe54e6"/>
+    <managerType typeId="2f626d52-d15d-48ac-8263-e9688f20717e" valueTypeId="a816a1ea-fd98-4aea-9998-a8e3dadd6521"/>
+  </producedTypes>
+  <name>ТипыЗаписиКнигиДоходовИРасходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы записи книги доходов и расходов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="26d14652-f14e-4971-b152-a7425e03e3c1">
+    <name>ДоходыОтРеализации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доходы от реализации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cfc1f7b8-e5b1-4fbf-aa58-542ae23a21ab">
+    <name>ВнереализационыеДоходы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внереализационые доходы</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5954777f-b423-4ff8-befa-57a37fcfa3ee">
+  <producedTypes>
+    <selectionType typeId="f732f912-8afa-4789-83d2-3b35760879bb" valueTypeId="086120e7-8e0d-4ff7-a283-28a1abd89e1e"/>
+    <listType typeId="aaacedab-64e3-4bbe-a8c0-616c98d30e8f" valueTypeId="1e41ec4c-6230-4b02-89be-f0f368afa203"/>
+    <managerType typeId="d1132094-1c23-4815-b49b-e1c896f4c84d" valueTypeId="8f309816-a866-4623-80ef-6286c0175803"/>
+    <recordSetType typeId="ab6f9eba-bddd-49aa-aab2-43b5e8ca2dab" valueTypeId="c2ab49f0-d39d-4047-9278-f77e0cb2ca0d"/>
+    <recordKeyType typeId="9bdc14e4-f5f3-4dbf-809c-45aa9408d290" valueTypeId="e1d63ace-1529-450d-9946-b3733f4a8f10"/>
+    <recordType typeId="22e12b98-5668-4985-bd5f-09cebe72cbb9" valueTypeId="43f30de1-ac13-461d-99eb-44363313b9c6"/>
+    <recordManagerType typeId="1b3b5099-9d37-4fdb-85d6-dd5227cc065d" valueTypeId="0dae890c-188c-49fe-806d-e55a8d46d923"/>
+  </producedTypes>
+  <name>СвойстваМестТранзакций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свойства мест транзакций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="1e003e46-755e-4962-9a42-8ec3f13aed12">
+    <name>ВыделятьВФактуре</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выделять в фактуре</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="4d5b2373-d874-46d1-aac9-2ca3a7da49a1">
+    <name>МестоТранзакции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место транзакции</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МестаТранзакции</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

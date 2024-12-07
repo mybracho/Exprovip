@@ -7,5 +7,5 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <parentSubsystem>Subsystem.Перевозки</parentSubsystem>
+  <parentSubsystem>Subsystem.Exprovip</parentSubsystem>
 </mdclass:Subsystem>

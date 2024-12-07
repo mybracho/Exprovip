@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98c183b5-0518-425d-8f43-27ad726ea5c2">
+  <producedTypes>
+    <objectType typeId="58573c2a-a328-48f4-8ef9-9f31bc345154" valueTypeId="3cfab9c6-6e4b-4ce0-953e-3a145571893a"/>
+    <refType typeId="826191db-3ad4-4b15-b7aa-36da8eb07e1a" valueTypeId="a1964441-aa00-4337-9980-c96557f6658a"/>
+    <selectionType typeId="5fdccadb-656d-4367-9546-5acb5256d34a" valueTypeId="853f7f2b-3cdc-46c0-bdeb-9edf2b99e421"/>
+    <listType typeId="0dff84b2-a1ec-44c1-8321-893de90fbbae" valueTypeId="cf9fa41f-4f34-4f26-82da-19354c49e98a"/>
+    <managerType typeId="278d015a-4a03-4c38-8dcf-6525a2a829f4" valueTypeId="ebb0101e-4f18-4005-9721-76dec0ac9690"/>
+  </producedTypes>
+  <name>Скидки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Скидки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Скидки.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Скидки.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

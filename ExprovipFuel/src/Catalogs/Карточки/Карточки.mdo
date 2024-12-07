@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64d23566-6508-4e6e-9d97-881cb1715f7b">
+  <producedTypes>
+    <objectType typeId="7345ba48-8251-4fdd-a700-269060fc326a" valueTypeId="a43416e2-1581-4062-a199-139c0d905ac5"/>
+    <refType typeId="faf54437-0301-4dc5-a293-5616905c243b" valueTypeId="8a9ab133-c02a-437b-b244-5fb261ded2be"/>
+    <selectionType typeId="974b8aea-dc35-45fc-a750-0f063f4b9e96" valueTypeId="7a653b57-cdc3-4038-bb1f-b57aa5eaa2b9"/>
+    <listType typeId="f5ae533d-8ee9-431c-90e8-8c067085efb0" valueTypeId="ccff5762-795e-4bc6-94d6-a19daa13d578"/>
+    <managerType typeId="1df3a718-ed48-480d-90a3-4155078d2723" valueTypeId="4872bb4a-71c0-4550-a388-3e07a57abe38"/>
+  </producedTypes>
+  <name>Карточки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Карточки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Карточки.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Карточки.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Контрагенты</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="7fe5745f-7739-496e-bd67-7ca9ba787e70">
+    <name>Пин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пин</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2e2f3fbb-54bb-4b1d-a141-2fa164ee6073">
+    <name>ДатаБлокировкиРазблокировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата блокировки разблокировки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5236cee7-ef1f-4578-af18-fa1cb76580b9">
+    <name>Блокировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Блокировка</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="506a4596-fa52-4628-b40b-29d5ba687f04">
+    <name>Архивная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Архивная</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

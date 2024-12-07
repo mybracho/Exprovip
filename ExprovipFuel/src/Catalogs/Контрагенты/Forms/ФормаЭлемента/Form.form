@@ -452,9 +452,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ФлагПеревозчик</segments>
-          </dataPath>
           <extendedTooltip>
             <name>ФлагПеревозчикРасширеннаяПодсказка</name>
             <id>27</id>
@@ -480,14 +477,10 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <type>CheckBoxField</type>
           <editMode>EnterOnInput</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:CheckBoxFieldExtInfo">
-            <checkBoxType>Switcher</checkBoxType>
-          </extInfo>
         </items>
         <items xsi:type="form:FormField">
           <name>ФлагЗаказчик</name>
@@ -497,9 +490,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ФлагЗаказчик</segments>
-          </dataPath>
           <extendedTooltip>
             <name>ФлагЗаказчикРасширеннаяПодсказка</name>
             <id>24</id>
@@ -525,14 +515,10 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <type>CheckBoxField</type>
           <editMode>EnterOnInput</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:CheckBoxFieldExtInfo">
-            <checkBoxType>Switcher</checkBoxType>
-          </extInfo>
         </items>
         <visible>true</visible>
         <enabled>true</enabled>

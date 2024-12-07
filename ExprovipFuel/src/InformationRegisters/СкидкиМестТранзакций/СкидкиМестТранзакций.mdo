@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27cfb7bd-b499-4ec3-87cf-1da67ba1dc01">
+  <producedTypes>
+    <selectionType typeId="aacd1272-749d-40c0-b4d4-77843ac4817f" valueTypeId="6ee6bf8a-892f-4483-b3a5-c38b4e5fbdfd"/>
+    <listType typeId="147e6ba9-93b2-4656-8f27-f035e18c8373" valueTypeId="6c5e663d-469a-42d8-836e-519a46474f00"/>
+    <managerType typeId="96f98b9b-2a06-46c2-8594-eac2deca3cf0" valueTypeId="bc2bcedf-c9cd-4071-82f5-4b954463f23b"/>
+    <recordSetType typeId="a238aa44-a777-420e-b100-70787c41bde1" valueTypeId="3c2c5770-711c-44e3-adf3-3f82d9296222"/>
+    <recordKeyType typeId="34f17e53-1c64-47f3-8c5f-a8964298c005" valueTypeId="38a8ba4d-8ae6-4329-b83d-16d46c57a5c4"/>
+    <recordType typeId="6cd31b83-cef6-4549-810e-adcb24c12905" valueTypeId="00ee6cbf-2986-4211-9ce4-fd1708d33c84"/>
+    <recordManagerType typeId="a990e38b-6591-4bdf-a272-6579b9a01f3f" valueTypeId="117b48f6-4ef0-481b-b5b6-fa8fede61d31"/>
+  </producedTypes>
+  <name>СкидкиМестТранзакций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Скидки мест транзакций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="7ee0d692-2693-43d9-9104-258a241f86f9">
+    <name>Скидка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скидка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Скидки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a4e698a1-864a-454c-9009-d5e9387848b7">
+    <name>МестоТранзации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место транзации</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МестаТранзакции</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

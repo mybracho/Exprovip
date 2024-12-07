@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2702e2b6-c8ce-4ea8-93f6-8f89d5640a30">
+  <producedTypes>
+    <selectionType typeId="49029823-c9c3-4453-8011-aa83bba3246e" valueTypeId="4790aee2-c645-47d7-b253-7ff5eb1ad77a"/>
+    <listType typeId="95aa24ac-780f-4076-ac91-ab0403bb8391" valueTypeId="7dc11953-9e97-4a61-af85-2bff06c512f1"/>
+    <managerType typeId="0e4df153-bb91-4a85-b686-b797b15d7367" valueTypeId="581df3e1-55fb-4af8-ae3b-dec18f4eb45c"/>
+    <recordSetType typeId="bd90d60e-4a10-44e2-b4ad-0167d22609b3" valueTypeId="b29fc75f-9925-4757-bc44-44f006c0d3bc"/>
+    <recordKeyType typeId="4c1448c7-6769-4d63-b8cd-301a78ead2e0" valueTypeId="e14aeb8e-e54b-44c0-a5f5-babe8e1923b3"/>
+    <recordType typeId="aabfa0f4-7d34-4181-be3e-190c1f19262b" valueTypeId="6de7d9ba-6ee4-4b83-9f7d-a4b4af54397c"/>
+    <recordManagerType typeId="b7157610-abe3-4e61-b183-fc05cb746395" valueTypeId="93a38592-eee3-46bd-b117-5daee3a2b3b3"/>
+  </producedTypes>
+  <name>АвтомобилиКарточек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автомобили карточек</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="abaca883-36d0-4988-a375-d9a84ef198eb">
+    <name>Автомобиль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автомобиль</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Автомобили</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1c3255c7-dfcb-46c7-b08b-2fe5e4597aa8">
+    <name>Карточка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карточка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Карточки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

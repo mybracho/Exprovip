@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c0a557a-9a30-4895-a331-de3eb1550ad3">
+  <producedTypes>
+    <selectionType typeId="93ff1496-60cd-4465-a017-566637a217db" valueTypeId="562834a3-449e-4e00-b8c6-8236cf13feaa"/>
+    <listType typeId="94583633-dd21-4c6b-8cd9-3c46a80a672e" valueTypeId="ecbe7a86-b017-4a82-997a-905f4b688b52"/>
+    <managerType typeId="395924f3-13ff-4b65-9c66-75f492b88d2f" valueTypeId="7a9a5046-a87e-4006-ac89-cdcb55b585a3"/>
+    <recordSetType typeId="ea1a827a-54c5-4416-bf49-23470fba1137" valueTypeId="2f9050c8-0258-4eb7-89f9-8f576b4c29a6"/>
+    <recordKeyType typeId="49d43873-9158-488a-b5b7-9860fb9d99b6" valueTypeId="9ffd429a-a0f7-468b-a103-00cd9411a4c7"/>
+    <recordType typeId="f2267d3e-01e2-460e-84cb-bc41b52376f6" valueTypeId="e5ad790a-d6a0-4034-b791-b1f7094d62a4"/>
+    <recordManagerType typeId="15e70a2e-2c90-498f-a4d3-0bbd27c34fb7" valueTypeId="4c69e89d-a8b5-4e07-8039-d2df7571e39b"/>
+  </producedTypes>
+  <name>ЗначенияСкидок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения скидок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="95ad029f-f2c5-40e3-9125-6de59aea0e87">
+    <name>ЗначениеСкидки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение скидки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d77131b4-98cc-4132-9ed9-59e4206700f5">
+    <name>Скидка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скидка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Скидки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

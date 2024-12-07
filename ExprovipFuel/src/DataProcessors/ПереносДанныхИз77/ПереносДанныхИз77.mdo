@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="953ebd50-2fc9-4976-9151-00d23719ab97">
+  <producedTypes>
+    <objectType typeId="3344b306-e103-4d45-8b6d-4d8feb9f76a3" valueTypeId="9c03789c-2a66-4c60-9763-ef934f65a0d0"/>
+    <managerType typeId="1fa1206b-c450-48be-b783-1c38659ad599" valueTypeId="157f485d-fd11-430d-bb1b-929da537cca6"/>
+  </producedTypes>
+  <name>ПереносДанныхИз77</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перенос данных из77</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПереносДанныхИз77.Form.Form</defaultForm>
+  <attributes uuid="9559d8ae-69a5-4fe2-a820-2588625024fe">
+    <name>ИнформационнаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационная база</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="eb22f2fc-34e0-4526-8fb6-5ad4935be69d">
+    <name>Form</name>
+    <synonym>
+      <key>ru</key>
+      <value>Form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

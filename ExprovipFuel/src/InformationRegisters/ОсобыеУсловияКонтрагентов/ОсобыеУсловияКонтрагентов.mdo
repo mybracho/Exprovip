@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09737145-418b-4665-afec-e9fb045c04dc">
+  <producedTypes>
+    <selectionType typeId="9553fa23-e302-4c8d-bcda-9d388f9480a1" valueTypeId="0c025cc5-2c84-4f67-8f6a-4988a621c59f"/>
+    <listType typeId="1fc45551-fc48-47af-9d6b-8631d8c1dd59" valueTypeId="a4f1ea1c-54d0-4964-968d-3856a09dfcb3"/>
+    <managerType typeId="7ca93155-618e-4a98-a974-c4cc6278f49e" valueTypeId="d2e45f75-b2e4-43f0-910b-2e6aeccc4da2"/>
+    <recordSetType typeId="ae46bc89-7edc-4b1a-8052-8f6cf49642fe" valueTypeId="3499fd3f-5849-4598-8481-6896698d1c94"/>
+    <recordKeyType typeId="51cc50ed-eb47-4b0b-8e61-71090dc49637" valueTypeId="7e2c198b-4f5b-4215-8c08-a976238eb3fd"/>
+    <recordType typeId="8758a7d4-0197-48af-8a99-55baf7fd9c7e" valueTypeId="38bc246c-a871-40e4-a014-8b88b8a065c4"/>
+    <recordManagerType typeId="bf13e282-2c9a-453d-97f8-112c3ee5551d" valueTypeId="de52c1df-9a7d-4a44-a1e5-7804420844bc"/>
+  </producedTypes>
+  <name>ОсобыеУсловияКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Особые условия контрагентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="651c2887-c869-439d-8fd6-50588952fc62">
+    <name>ИспользоватьОсобыеУсловия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать особые условия</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="cd8d2232-ea48-4002-9389-32cd3053eddf">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

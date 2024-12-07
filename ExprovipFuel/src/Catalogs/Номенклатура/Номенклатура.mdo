@@ -105,6 +105,8 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Номенклатура.Form.ItemForm</defaultObjectForm>
+  <defaultListForm>Catalog.Номенклатура.Form.ListForm</defaultListForm>
   <attributes uuid="a61c9f4d-9df8-4c29-a340-2faa3c81b2df">
     <name>НаименованиеПолное</name>
     <synonym>
@@ -123,4 +125,114 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="d5d10582-9da2-4ae8-9d9f-b447235f9fae">
+    <name>ЭтоДороги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это дороги</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3bea2a50-c09f-48d4-9779-69f003ebceec">
+    <name>Идентификатор77</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор77</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="f8cde8fe-4557-484f-bdb1-03d9dd1b440e">
+    <producedTypes>
+      <objectType typeId="b97eb5f5-99f0-46d0-82e7-363f2a83b834" valueTypeId="995a3870-2d1e-4472-b280-63bb075b4f3b"/>
+      <rowType typeId="77f7c5b9-1e03-4382-acfe-9c48200c7164" valueTypeId="5fb13b9e-0cb4-4422-975a-94f07581eaf2"/>
+    </producedTypes>
+    <name>ИдентификаторыКодовПоставщиков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификаторы кодов поставщиков</value>
+    </synonym>
+    <attributes uuid="ba1f3535-5cea-46da-9fb7-0115911b9ce4">
+      <name>Контрагент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контрагент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5e6aa534-b8a4-4483-8490-adc6f703211e">
+      <name>ИД</name>
+      <synonym>
+        <key>ru</key>
+        <value>ИД</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="90f9fa9f-a756-40cf-9e9b-8c6fc7be7723">
+      <name>Комментарий77</name>
+      <synonym>
+        <key>ru</key>
+        <value>Комментарий77</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="e9ff6549-ab39-4a25-9f61-81e8f0aff4b2">
+    <name>ItemForm</name>
+    <synonym>
+      <key>ru</key>
+      <value>Item form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b6e97171-ce20-418b-950b-3e11a7385b2e">
+    <name>ListForm</name>
+    <synonym>
+      <key>ru</key>
+      <value>List form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

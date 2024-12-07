@@ -11,5 +11,8 @@
   <content>Catalog.Автомобили</content>
   <content>Catalog.Номенклатура</content>
   <content>Catalog.Валюты</content>
-  <parentSubsystem>Subsystem.Перевозки</parentSubsystem>
+  <content>Catalog.МестаТранзакции</content>
+  <content>Catalog.Карточки</content>
+  <content>Catalog.Скидки</content>
+  <parentSubsystem>Subsystem.Exprovip</parentSubsystem>
 </mdclass:Subsystem>

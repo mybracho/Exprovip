@@ -45,7 +45,7 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
-  <subsystems>Subsystem.Перевозки</subsystems>
+  <subsystems>Subsystem.Exprovip</subsystems>
   <subsystems>Subsystem.Администрирование</subsystems>
   <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
@@ -994,6 +994,9 @@
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Автомобили</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Скидки</catalogs>
+  <catalogs>Catalog.Карточки</catalogs>
+  <catalogs>Catalog.МестаТранзакции</catalogs>
   <enums>Enum.ВариантыВерсионированияОбъектов</enums>
   <enums>Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок</enums>
   <enums>Enum.ВариантыПериода</enums>
@@ -1066,6 +1069,7 @@
   <dataProcessors>DataProcessor.РекомендацияПоПовышениюСкоростиРаботы</dataProcessors>
   <dataProcessors>DataProcessor.Сканирование</dataProcessors>
   <dataProcessors>DataProcessor.УдалениеПомеченныхОбъектов</dataProcessors>
+  <dataProcessors>DataProcessor.ПереносДанныхИз77</dataProcessors>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
   <informationRegisters>InformationRegister.БлокировкиСеансовОбластейДанных</informationRegisters>
   <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>
@@ -1109,5 +1113,11 @@
   <informationRegisters>InformationRegister.УдаляемыеОбъекты</informationRegisters>
   <informationRegisters>InformationRegister.ФайлыВРабочемКаталоге</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьХранимыеФайлыВерсий</informationRegisters>
+  <informationRegisters>InformationRegister.СкидкиКонтрагентов</informationRegisters>
+  <informationRegisters>InformationRegister.ОсобыеУсловияКонтрагентов</informationRegisters>
+  <informationRegisters>InformationRegister.АвтомобилиКарточек</informationRegisters>
+  <informationRegisters>InformationRegister.ЗначенияСкидок</informationRegisters>
+  <informationRegisters>InformationRegister.СкидкиМестТранзакций</informationRegisters>
+  <informationRegisters>InformationRegister.СвойстваМестТранзакций</informationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.РазделыДатЗапретаИзменения</chartsOfCharacteristicTypes>
 </mdclass:Configuration>

@@ -190,6 +190,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.Контрагенты</name>
+		<right>
+			<name>InteractiveDelete</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDeletePredefinedData</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.СоздаватьПодкаталогиСИменамиВладельцев</name>
 		<right>
 			<name>Read</name>
@@ -229,6 +240,17 @@
 		</right>
 		<right>
 			<name>SwitchToDataHistoryVersion</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Номенклатура</name>
+		<right>
+			<name>InteractiveDelete</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDeletePredefinedData</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -329,6 +351,17 @@
 		</right>
 		<right>
 			<name>InteractiveDeleteMarkedPredefinedData</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Автомобили</name>
+		<right>
+			<name>InteractiveDelete</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDeletePredefinedData</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -714,6 +747,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.Карточки</name>
+		<right>
+			<name>InteractiveDelete</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDeletePredefinedData</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.ПутьКТомуБезУчетаРегиональныхНастроек</name>
 		<right>
 			<name>Update</name>
@@ -992,6 +1036,17 @@
 		</right>
 		<right>
 			<name>SwitchToDataHistoryVersion</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Скидки</name>
+		<right>
+			<name>InteractiveDelete</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDeletePredefinedData</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -1377,6 +1432,17 @@
 		</right>
 		<right>
 			<name>SwitchToDataHistoryVersion</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.МестаТранзакции</name>
+		<right>
+			<name>InteractiveDelete</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDeletePredefinedData</name>
 			<value>false</value>
 		</right>
 	</object>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a94612d4-86e0-4485-b6a1-d0b67bafd535">
+  <producedTypes>
+    <selectionType typeId="f083cc73-8e37-4614-a0df-f83ea1ada385" valueTypeId="a1175b9e-dcec-4e5a-8147-4156c9c7942f"/>
+    <listType typeId="0c1d1c6f-c12e-45a7-9315-8023c8e0008a" valueTypeId="8455d5ee-2bc9-4f87-a881-12fc19852952"/>
+    <managerType typeId="247d7f34-9511-4c47-828c-43e0e52de7e8" valueTypeId="789747f5-df88-41b5-9c56-86f76bca6648"/>
+    <recordSetType typeId="2f276c1d-2aa2-4ae7-a154-87c9ac48f1f0" valueTypeId="9cdc71b9-9757-4f79-990d-ffeb85f1fb7c"/>
+    <recordKeyType typeId="61ff565b-41e6-43de-8543-08729aff52e3" valueTypeId="ea61b245-1882-4800-b0ac-c368b4ff1d5c"/>
+    <recordType typeId="55a902b9-6941-4a2e-9e14-cf7a950ebc7d" valueTypeId="12d36f5e-7a7a-403d-8d3c-7ccc15663724"/>
+    <recordManagerType typeId="3e0556a5-8c63-4df4-998f-02fa433fec22" valueTypeId="4bd85f9d-01fe-4b59-a2a0-0a0e13aedbe2"/>
+  </producedTypes>
+  <name>СкидкиКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Скидки контрагентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="e4286561-3b40-4caf-91af-fe5dd833f726">
+    <name>Скидки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скидки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Скидки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="078c02ea-f6eb-4faa-8d4a-5a61361d431c">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

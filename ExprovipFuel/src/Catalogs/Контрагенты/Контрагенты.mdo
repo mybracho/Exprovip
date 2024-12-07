@@ -209,14 +209,17 @@
     <use>ForFolderAndItem</use>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="4ffce345-1048-4c12-a0eb-8a2210c2f7e6">
-    <name>ФлагЗаказчик</name>
+  <attributes uuid="ca54610e-ef6a-4bd1-8c65-e68a5aef415b">
+    <name>ПочтовыйКод</name>
     <synonym>
       <key>ru</key>
-      <value>Заказчик</value>
+      <value>Почтовый код</value>
     </synonym>
     <type>
-      <types>Boolean</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -224,14 +227,69 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="55dc406b-a54a-44e4-bfd2-55b32a2bd574">
-    <name>ФлагПеревозчик</name>
+  <attributes uuid="ebe2dcdb-8941-406f-9630-c1a72954161d">
+    <name>НИП</name>
     <synonym>
       <key>ru</key>
-      <value>Перевозчик</value>
+      <value>НИП</value>
     </synonym>
     <type>
-      <types>Boolean</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="210315ca-8b9a-4d8c-a887-b50ccb9e7013">
+    <name>ПочтовыйКод1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Почтовый код1</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="36338c47-99e2-4af7-a5f3-507b4c7393b6">
+    <name>ПутьДляВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь для выгрузки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5f957964-a2af-477c-85ee-8a95abe4a497">
+    <name>Логин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логин</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

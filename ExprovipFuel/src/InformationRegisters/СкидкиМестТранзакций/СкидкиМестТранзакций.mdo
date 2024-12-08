@@ -16,7 +16,7 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
-  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSliceLast>true</enableTotalsSliceLast>
   <resources uuid="7ee0d692-2693-43d9-9104-258a241f86f9">

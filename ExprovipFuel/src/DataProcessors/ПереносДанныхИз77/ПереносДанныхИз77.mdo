@@ -7,7 +7,7 @@
   <name>ПереносДанныхИз77</name>
   <synonym>
     <key>ru</key>
-    <value>Перенос данных из77</value>
+    <value>Перенос данных из 7.7</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ПереносДанныхИз77.Form.Form</defaultForm>

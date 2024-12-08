@@ -13,23 +13,26 @@
     <value>Места транзакции</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.МестаТранзакции.StandardAttribute.Code</inputByString>
   <inputByString>Catalog.МестаТранзакции.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.МестаТранзакции.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
-  <descriptionLength>25</descriptionLength>
-  <codeType>String</codeType>
+  <descriptionLength>100</descriptionLength>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.МестаТранзакции.Form.ItemForm</defaultObjectForm>
+  <defaultFolderForm>Catalog.МестаТранзакции.Form.GroupForm</defaultFolderForm>
+  <defaultListForm>Catalog.МестаТранзакции.Form.ListForm</defaultListForm>
   <attributes uuid="028c4e74-35ef-460a-9c41-398e5edcc4c5">
     <name>КодУчета</name>
     <synonym>
@@ -46,6 +49,53 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="e3217ae6-927c-49ed-a160-6d4022a7b0cd">
+    <name>Идентификатор77</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор77</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="c4fac09c-94b3-48a0-91e8-d37c1173aba1">
+    <name>ItemForm</name>
+    <synonym>
+      <key>ru</key>
+      <value>Item form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8978bc91-448d-44bc-b4a6-f4d90813f11b">
+    <name>GroupForm</name>
+    <synonym>
+      <key>ru</key>
+      <value>Group form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d94f140b-32c4-42b8-8803-8626cad8c268">
+    <name>ListForm</name>
+    <synonym>
+      <key>ru</key>
+      <value>List form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

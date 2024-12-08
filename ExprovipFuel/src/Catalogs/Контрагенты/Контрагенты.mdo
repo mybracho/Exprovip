@@ -297,6 +297,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="667c1c6e-5a82-4646-87d2-6645ca5806d3">
+    <name>Идентификатор77</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор77</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="f5f48992-76cf-4d12-93f2-2505356b25bf">
     <producedTypes>
       <objectType typeId="b94d104d-88ed-4046-8882-f22eee1fcedf" valueTypeId="d18a3ee7-15f5-4734-9c9d-495fc48bb2ce"/>

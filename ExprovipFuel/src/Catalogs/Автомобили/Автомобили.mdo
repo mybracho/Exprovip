@@ -127,6 +127,42 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="cba2afbc-d8eb-44b4-8ef1-a8930528de35">
+    <name>Идентификатор77</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор77</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2da6117b-383e-4524-b000-92bb4440cba8">
+    <name>НомерБелтол</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер белтол</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>9</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="e5ef7755-9f25-4858-aae3-e9a485e19df7">
     <name>ФормаЭлемента</name>
     <synonym>

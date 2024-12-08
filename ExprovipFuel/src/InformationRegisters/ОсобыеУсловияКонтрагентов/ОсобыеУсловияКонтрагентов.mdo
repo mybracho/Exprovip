@@ -20,10 +20,10 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSliceLast>true</enableTotalsSliceLast>
   <resources uuid="651c2887-c869-439d-8fd6-50588952fc62">
-    <name>ИспользоватьОсобыеУсловия</name>
+    <name>НеИспользоватьОсобыеУсловия</name>
     <synonym>
       <key>ru</key>
-      <value>Использовать особые условия</value>
+      <value>Не использовать особые условия</value>
     </synonym>
     <type>
       <types>Boolean</types>

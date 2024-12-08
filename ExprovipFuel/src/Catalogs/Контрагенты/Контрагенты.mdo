@@ -246,10 +246,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="210315ca-8b9a-4d8c-a887-b50ccb9e7013">
-    <name>ПочтовыйКод1</name>
+    <name>ЮридическийКод</name>
     <synonym>
       <key>ru</key>
-      <value>Почтовый код1</value>
+      <value>Юридический код</value>
     </synonym>
     <type>
       <types>String</types>
@@ -308,6 +308,36 @@
       <stringQualifiers>
         <length>100</length>
       </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="585b9488-2f5b-4cb1-a7f9-566bc0790a2c">
+    <name>ЭтоКлиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это клиент</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e3ee5110-82d4-4d18-8596-08cbdb9f13b0">
+    <name>ЭтоПоставщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это поставщик</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

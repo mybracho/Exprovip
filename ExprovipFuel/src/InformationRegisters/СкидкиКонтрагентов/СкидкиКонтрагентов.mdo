@@ -20,10 +20,10 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSliceLast>true</enableTotalsSliceLast>
   <resources uuid="e4286561-3b40-4caf-91af-fe5dd833f726">
-    <name>Скидки</name>
+    <name>Скидка</name>
     <synonym>
       <key>ru</key>
-      <value>Скидки</value>
+      <value>Скидка</value>
     </synonym>
     <type>
       <types>CatalogRef.Скидки</types>

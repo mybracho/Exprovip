@@ -34,6 +34,24 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
+  <resources uuid="a48271ae-1be4-4102-aca8-6150c4609e74">
+    <name>АвтомобильСтрока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автомобиль строка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
   <dimensions uuid="1c3255c7-dfcb-46c7-b08b-2fe5e4597aa8">
     <name>Карточка</name>
     <synonym>

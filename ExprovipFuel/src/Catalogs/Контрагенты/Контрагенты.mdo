@@ -104,10 +104,28 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="4d4f1d58-f872-4bd3-9d4b-06e00d8f3dfa">
+      <name>Клиенты</name>
+      <description>Клиенты</description>
+      <code xsi:type="core:NumberValue">
+        <value>1</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="e5b0840c-191f-4318-96ae-395c974ea7cb">
+      <name>Поставщики</name>
+      <description>Поставщики</description>
+      <code xsi:type="core:NumberValue">
+        <value>2</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Контрагенты.Form.ФормаЭлемента</defaultObjectForm>
-  <defaultListForm>Catalog.Контрагенты.Form.ФормаСписка</defaultListForm>
+  <defaultListForm>Catalog.Контрагенты.Form.ListForm</defaultListForm>
   <attributes uuid="293d57d2-e77b-49f5-96df-70709044c347">
     <name>НаименованиеПолное</name>
     <synonym>
@@ -124,23 +142,6 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="3bacd700-47b8-46c3-a81a-191b183179bc">
-    <name>СтранаРегистрации</name>
-    <synonym>
-      <key>ru</key>
-      <value>Страна регистрации</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.СтраныМира</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <fillFromFillingValue>true</fillFromFillingValue>
-    <fillValue xsi:type="core:ReferenceValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -623,11 +624,11 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="9ed3c5b4-92dd-458f-ae25-462543ba090e">
-    <name>ФормаСписка</name>
+  <forms uuid="1835ca26-c894-41ec-8263-6e367ca91d8d">
+    <name>ListForm</name>
     <synonym>
       <key>ru</key>
-      <value>Форма списка</value>
+      <value>List form</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

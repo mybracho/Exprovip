@@ -50,4 +50,16 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <commands uuid="43b14dc6-0498-4cf8-b7cd-071478a2ea5a">
+    <name>СкидкиКонтрагентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скидки контрагентов</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.Контрагенты</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:InformationRegister>

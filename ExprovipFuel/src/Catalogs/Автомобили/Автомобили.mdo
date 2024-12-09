@@ -95,6 +95,14 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Автомобиль</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Автомобили</value>
+  </listPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <owners>Catalog.Контрагенты</owners>
@@ -107,6 +115,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Автомобили.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Автомобили.Form.ListForm</defaultListForm>
   <attributes uuid="f4c47fbf-220c-4715-be90-2be426984e09">
     <name>ГосударственныйНомер</name>
     <synonym>
@@ -168,6 +177,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9547964c-7e76-408b-99c7-cb3bff7247dc">
+    <name>ListForm</name>
+    <synonym>
+      <key>ru</key>
+      <value>List form</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

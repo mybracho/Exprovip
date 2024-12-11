@@ -15,8 +15,7 @@
     <value>Курсы валют</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <defaultRecordForm>InformationRegister.КурсыВалют.Form.ФормаЗаписи</defaultRecordForm>
-  <defaultListForm>InformationRegister.КурсыВалют.Form.ФормаСписка</defaultListForm>
+  <defaultListForm>InformationRegister.КурсыВалют.Form.ListForm</defaultListForm>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Active</name>
@@ -123,6 +122,63 @@
       <value>1</value>
     </fillValue>
   </resources>
+  <resources uuid="e54e94f3-3171-4d5c-9aaa-edcf21db5ae0">
+    <name>КурсВзаиморасчетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курс взаиморасчетов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="13b113a9-3e53-4d1f-bf71-97e53b535a21">
+    <name>КурсКЕвро</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курс к евро</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="46e3bc09-7c4e-4959-b7d1-f19d82528dab">
+    <name>КурсКДоллару</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курс к доллару</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
   <dimensions uuid="b1a330d7-9b88-44e9-aba6-41ce5e5e669c">
     <name>Валюта</name>
     <synonym>
@@ -150,20 +206,11 @@
     <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <forms uuid="f279a625-b88f-43b4-bce9-de1186fe7d7e">
-    <name>ФормаЗаписи</name>
+  <forms uuid="ad3b6f59-eb36-4675-9c06-55dc3b481a73">
+    <name>ListForm</name>
     <synonym>
       <key>ru</key>
-      <value>Форма записи</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="a2f19cb2-9f2e-442b-b9f2-e5253c70871c">
-    <name>ФормаСписка</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма списка</value>
+      <value>List form</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

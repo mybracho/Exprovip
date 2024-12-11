@@ -141,9 +141,8 @@
   <editType>InDialog</editType>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
-  <defaultObjectForm>Catalog.Валюты.Form.ФормаЭлемента</defaultObjectForm>
-  <defaultListForm>Catalog.Валюты.Form.ФормаСписка</defaultListForm>
-  <defaultChoiceForm>Catalog.Валюты.Form.ФормаСписка</defaultChoiceForm>
+  <defaultObjectForm>Catalog.Валюты.Form.ItemForm</defaultObjectForm>
+  <defaultListForm>Catalog.Валюты.Form.ListForm</defaultListForm>
   <attributes uuid="9f67d228-79aa-44e6-8dc7-fae4fbdfef2a">
     <name>ЗагружаетсяИзИнтернета</name>
     <synonym>
@@ -310,6 +309,25 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="e4f238bf-fbf5-4cd6-8c49-85a2855d4f6d">
+    <name>Идентификатор77</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор77</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="f3ae1a2c-e0ca-461b-ba5a-76a6423c6325">
     <producedTypes>
       <objectType typeId="7c7863ac-88d7-43e6-a7a6-ac2c028d9ce6" valueTypeId="3435126c-08b4-469c-8ff0-e7f9279ad4e8"/>
@@ -368,55 +386,21 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
-  <forms uuid="5f91b00f-d8fc-4d63-8486-66339357ab22">
-    <name>ФормаСписка</name>
+  <forms uuid="2e5af8a2-8be3-46eb-a46f-dca9c1110ace">
+    <name>ItemForm</name>
     <synonym>
       <key>ru</key>
-      <value>Форма списка</value>
+      <value>Item form</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="16d44ab1-4bce-4df8-a215-6ed5173c75a8">
-    <name>ФормаЭлемента</name>
+  <forms uuid="d3c9922d-8813-4ea8-b395-25570302cb01">
+    <name>ListForm</name>
     <synonym>
       <key>ru</key>
-      <value>Форма элемента</value>
+      <value>List form</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="86a9d7ab-7a96-4c58-8073-ca4b2b99cceb">
-    <name>ПараметрыПрописиВалюты_en</name>
-    <synonym>
-      <key>ru</key>
-      <value>Параметры прописи валюты на английском языке</value>
-    </synonym>
-    <comment>АПК:58</comment>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="1ae1a239-0d88-4467-af33-32bcfe6cf61d">
-    <name>ПараметрыПрописиВалютыНаДругихЯзыках</name>
-    <synonym>
-      <key>ru</key>
-      <value>Параметры прописи</value>
-    </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

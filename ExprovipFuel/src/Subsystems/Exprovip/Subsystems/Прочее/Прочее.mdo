@@ -8,5 +8,7 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>DataProcessor.ПереносДанныхИз77</content>
+  <content>InformationRegister.УсловияСкидокНаЗаправкахИстория</content>
+  <content>InformationRegister.СвойстваМестТранзакций</content>
   <parentSubsystem>Subsystem.Exprovip</parentSubsystem>
 </mdclass:Subsystem>

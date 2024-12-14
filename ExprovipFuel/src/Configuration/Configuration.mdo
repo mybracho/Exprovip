@@ -997,6 +997,7 @@
   <catalogs>Catalog.Скидки</catalogs>
   <catalogs>Catalog.Карточки</catalogs>
   <catalogs>Catalog.МестаТранзакции</catalogs>
+  <catalogs>Catalog.УсловияСкидокНаЗаправках</catalogs>
   <enums>Enum.ВариантыВерсионированияОбъектов</enums>
   <enums>Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок</enums>
   <enums>Enum.ВариантыПериода</enums>
@@ -1119,5 +1120,6 @@
   <informationRegisters>InformationRegister.ЗначенияСкидок</informationRegisters>
   <informationRegisters>InformationRegister.СкидкиМестТранзакций</informationRegisters>
   <informationRegisters>InformationRegister.СвойстваМестТранзакций</informationRegisters>
+  <informationRegisters>InformationRegister.УсловияСкидокНаЗаправкахИстория</informationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.РазделыДатЗапретаИзменения</chartsOfCharacteristicTypes>
 </mdclass:Configuration>

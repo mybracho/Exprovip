@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8443d880-11f5-40b4-90aa-e01999748fa7">
+  <producedTypes>
+    <objectType typeId="7b45c803-9e04-4fbf-ba29-179c2d80ba12" valueTypeId="4716c2bc-42bf-4614-8f03-d52c3fda918d"/>
+    <refType typeId="393ee32b-56b4-4f1d-b92d-00579261aac2" valueTypeId="ddcc368f-a74c-4672-a4e1-7a6fef7822b9"/>
+    <selectionType typeId="97e225bc-baa6-4049-a908-71296d4517d8" valueTypeId="0055d914-e4f4-4c25-9955-da26bfec1493"/>
+    <listType typeId="d3d0c901-209c-410c-bfa7-9a7a70a0625a" valueTypeId="60de39d5-e81f-4514-8d60-939770b89348"/>
+    <managerType typeId="c0e211e8-c7d9-440f-b6cb-ce4c2afb9c43" valueTypeId="a8a5e751-6655-4e11-9d3f-ddd432419fc7"/>
+  </producedTypes>
+  <name>УсловияСкидокНаЗаправках</name>
+  <synonym>
+    <key>ru</key>
+    <value>Условия скидок на заправках</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УсловияСкидокНаЗаправках.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.МестаТранзакции</owners>
+  <codeLength>5</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.УсловияСкидокНаЗаправках.Form.ItemForm</defaultObjectForm>
+  <defaultListForm>Catalog.УсловияСкидокНаЗаправках.Form.ListForm</defaultListForm>
+  <attributes uuid="4c833a7c-830f-4af7-bb2f-845993e595b4">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="399dfe90-7171-408a-a5a0-72840db21a88">
+    <name>Идентификатор77</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор77</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="4f671f45-13eb-40e9-acd2-a9bdce9c8e51">
+    <name>ItemForm</name>
+    <synonym>
+      <key>ru</key>
+      <value>Item form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7bb760c8-ccc5-4397-aa11-a832cfe07567">
+    <name>ListForm</name>
+    <synonym>
+      <key>ru</key>
+      <value>List form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

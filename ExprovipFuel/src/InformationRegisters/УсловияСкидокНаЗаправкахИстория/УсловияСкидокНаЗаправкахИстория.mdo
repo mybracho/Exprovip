@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5536f05-aeec-4582-a484-939908fad432">
+  <producedTypes>
+    <selectionType typeId="be0b5094-f170-4465-9f71-811967f31ac0" valueTypeId="fe5c6699-ccba-47a9-93fc-da28c0bddbdb"/>
+    <listType typeId="ec688382-1952-4efd-a4f6-624882f9cd2e" valueTypeId="853e0ccf-88db-4724-ae8d-e0aac5f23bf9"/>
+    <managerType typeId="53717046-0579-4fa8-aa4c-268c32f45974" valueTypeId="1101a06d-fc69-4ca8-9c71-185df84b05fc"/>
+    <recordSetType typeId="d782c615-4ba5-414d-8092-3c3c848fc7ee" valueTypeId="580f509d-b7d9-4f74-8609-10d47e9b0f0f"/>
+    <recordKeyType typeId="8b94a26a-66a8-4cd9-ab4c-5da0a9f0e3b3" valueTypeId="bcf8c21c-537b-4a67-bb5e-4d0cb62e9157"/>
+    <recordType typeId="912a8983-ad93-4c8e-91cb-bf1d0879dc31" valueTypeId="a725dffa-6348-4601-b221-1ef02a0c41f9"/>
+    <recordManagerType typeId="bacf5074-b0fc-44dc-a62e-9ef3708965df" valueTypeId="6fe7caf9-4bc1-4fd7-bbf1-500512571973"/>
+  </producedTypes>
+  <name>УсловияСкидокНаЗаправкахИстория</name>
+  <synonym>
+    <key>ru</key>
+    <value>Условия скидок на заправках история</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="6272131d-3318-40ea-96a0-8ae3b341e7d1">
+    <name>Скидка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скидка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="fd2c429c-9a40-4cb1-b8d6-0468cd459cae">
+    <name>УсловияСкидок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условия скидок</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УсловияСкидокНаЗаправках</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

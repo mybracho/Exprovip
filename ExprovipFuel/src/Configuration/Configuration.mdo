@@ -999,6 +999,7 @@
   <catalogs>Catalog.МестаТранзакции</catalogs>
   <catalogs>Catalog.УсловияСкидокНаЗаправках</catalogs>
   <documents>Document.ФактураШаблон</documents>
+  <documents>Document.Фактура</documents>
   <enums>Enum.ВариантыВерсионированияОбъектов</enums>
   <enums>Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок</enums>
   <enums>Enum.ВариантыПериода</enums>

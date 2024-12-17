@@ -24,6 +24,18 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <attributes uuid="e8a82d1b-92fe-42cc-8f60-6dfd5d05e65e">
+    <name>ПериодВыборкиДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период выборки документов</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <forms uuid="eb22f2fc-34e0-4526-8fb6-5ad4935be69d">
     <name>Form</name>
     <synonym>

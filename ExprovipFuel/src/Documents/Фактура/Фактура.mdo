@@ -510,7 +510,7 @@
       <name>ФлагНеУчитывать</name>
       <synonym>
         <key>ru</key>
-        <value>Флаг не учитывать</value>
+        <value>Не учитывать</value>
       </synonym>
       <type>
         <types>Boolean</types>

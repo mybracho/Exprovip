@@ -739,6 +739,9 @@
   <commonModules>CommonModule.ФизическиеЛицаКлиентСервер</commonModules>
   <commonModules>CommonModule.Exprovip</commonModules>
   <commonModules>CommonModule.ExprovipОбновлениеИнформационнойБазы</commonModules>
+  <commonModules>CommonModule.ЗагрузкаБеларусьнефь</commonModules>
+  <commonModules>CommonModule.ЗагрузкаОбщий</commonModules>
+  <commonModules>CommonModule.ЗагрузкаТранзитКард</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApplicationExtensionsManifest_1_0_0_1</xDTOPackages>
   <xDTOPackages>XDTOPackage.ApplicationExtensionsPermissions_1_0_0_1</xDTOPackages>

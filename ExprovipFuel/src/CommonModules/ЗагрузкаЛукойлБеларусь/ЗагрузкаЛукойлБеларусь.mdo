@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="385405b0-a1b4-4b0c-b9af-e2d42eee6db0">
+  <name>ЗагрузкаЛукойлБеларусь</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка Лукойл Беларусь</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

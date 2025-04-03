@@ -742,6 +742,7 @@
   <commonModules>CommonModule.ЗагрузкаБеларусьнефь</commonModules>
   <commonModules>CommonModule.ЗагрузкаОбщий</commonModules>
   <commonModules>CommonModule.ЗагрузкаТранзитКард</commonModules>
+  <commonModules>CommonModule.ЗагрузкаТатнефть</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApplicationExtensionsManifest_1_0_0_1</xDTOPackages>
   <xDTOPackages>XDTOPackage.ApplicationExtensionsPermissions_1_0_0_1</xDTOPackages>

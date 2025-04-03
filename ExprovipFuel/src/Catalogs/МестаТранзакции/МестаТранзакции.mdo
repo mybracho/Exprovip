@@ -33,6 +33,7 @@
   <defaultObjectForm>Catalog.МестаТранзакции.Form.ItemForm</defaultObjectForm>
   <defaultFolderForm>Catalog.МестаТранзакции.Form.GroupForm</defaultFolderForm>
   <defaultListForm>Catalog.МестаТранзакции.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.МестаТранзакции.Form.ФормаВыбора</defaultChoiceForm>
   <attributes uuid="028c4e74-35ef-460a-9c41-398e5edcc4c5">
     <name>КодУчета</name>
     <synonym>
@@ -94,6 +95,15 @@
     <synonym>
       <key>ru</key>
       <value>List form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2a041cbb-2780-46d7-91e7-d9730fa17e19">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

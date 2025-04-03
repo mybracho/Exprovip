@@ -91,6 +91,22 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="bea5ed69-1404-46bb-9cfb-cd4c5cfdcc0e">
+    <name>ПутьКФайлу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к файлу</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="3d7f7f66-3a11-4dd2-b65f-37c1bed38f87">
     <name>DocumentForm</name>
     <synonym>
@@ -294,6 +310,32 @@
         <stringQualifiers>
           <length>20</length>
         </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="e130509a-a4ba-41bd-8127-c75aad519a71">
+    <producedTypes>
+      <objectType typeId="ecef3a34-2c88-4036-9080-dd30c8828406" valueTypeId="808da6e9-2509-4b17-81c8-921fd1d23790"/>
+      <rowType typeId="ca8ecfc0-4fa8-40c8-a842-ae444aa651d3" valueTypeId="8b42c59f-5ca6-4f9f-ad60-c534a1746f71"/>
+    </producedTypes>
+    <name>Ошибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибки</value>
+    </synonym>
+    <attributes uuid="b6be3507-4a21-42a9-81e8-8c812dca47ea">
+      <name>ТекстОшибки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текст ошибки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

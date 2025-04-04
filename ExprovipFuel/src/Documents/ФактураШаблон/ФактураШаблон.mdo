@@ -143,9 +143,7 @@
       </synonym>
       <type>
         <types>Date</types>
-        <dateQualifiers>
-          <dateFractions>Date</dateFractions>
-        </dateQualifiers>
+        <dateQualifiers/>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -343,4 +341,11 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <templates uuid="7c512adc-52c8-475a-8520-911b2017ee16">
+    <name>МакетСравнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет сравнения</value>
+    </synonym>
+  </templates>
 </mdclass:Document>

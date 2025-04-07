@@ -25,6 +25,7 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ФактураШаблон.Form.DocumentForm</defaultObjectForm>
   <defaultListForm>Document.ФактураШаблон.Form.ListForm</defaultListForm>
+  <realTimePosting>Deny</realTimePosting>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="f6657f3c-e7e9-4761-9feb-a1fef6f0be22">

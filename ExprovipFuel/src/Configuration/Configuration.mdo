@@ -1004,6 +1004,7 @@
   <catalogs>Catalog.Карточки</catalogs>
   <catalogs>Catalog.МестаТранзакции</catalogs>
   <catalogs>Catalog.УсловияСкидокНаЗаправках</catalogs>
+  <catalogs>Catalog.Настройки</catalogs>
   <documents>Document.ФактураШаблон</documents>
   <documents>Document.Фактура</documents>
   <enums>Enum.ВариантыВерсионированияОбъектов</enums>

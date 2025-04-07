@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c0bc438-a607-4493-a347-430ebeeee4f8">
+  <producedTypes>
+    <objectType typeId="465de921-5675-437a-8906-d7f616f36235" valueTypeId="4442969c-18d0-4d73-8432-d0976e393702"/>
+    <refType typeId="d4b5eb07-6569-4d54-a8a4-20255dd9a8bd" valueTypeId="cc5264b8-7a7a-47e8-be83-f75ab665c90f"/>
+    <selectionType typeId="1fe699c8-24fa-453b-ae9b-c519919170f4" valueTypeId="d9557fc9-4cf7-42e8-867a-04d015e5317d"/>
+    <listType typeId="2246ff0f-b177-4c1a-89bd-8a226fcafbea" valueTypeId="86da7838-9244-423c-9580-6876b9894f48"/>
+    <managerType typeId="34849b46-5a4a-4b9e-99e3-8bb2dd0d380f" valueTypeId="d754ae36-f0b2-4ea1-b9b1-c889fbbadcfe"/>
+  </producedTypes>
+  <name>Настройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Настройки.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Настройки.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="aba41d43-e4ba-420b-b455-c29a0c641d26">
+      <name>ПредопределенныеНастройки</name>
+      <description>Предопределенные настройки</description>
+      <code xsi:type="core:NumberValue">
+        <value>1</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="cacc0803-e60b-4758-90c9-6e3af80b4af0">
+    <name>EUR</name>
+    <synonym>
+      <key>ru</key>
+      <value>EUR</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1acdd98b-ccf6-4ae0-8170-de9508c6ebd3">
+    <name>USD</name>
+    <synonym>
+      <key>ru</key>
+      <value>USD</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1bfad155-50b9-4e37-82d2-aa51930d65f2">
+    <name>RUB</name>
+    <synonym>
+      <key>ru</key>
+      <value>RUB</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7ab93e56-646f-47b6-afc0-b9f1b8ca0060">
+    <name>BYN</name>
+    <synonym>
+      <key>ru</key>
+      <value>BYN</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="75e0149e-378d-41ea-9d5b-3e0f5fb3a7f0">
+    <name>ПутьДляВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь для выгрузки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f2fa78bb-2f58-4445-b1cb-d82c4dd60fa3">
+    <name>ПутьДляВыгрузкиИнвойсов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь для выгрузки инвойсов</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

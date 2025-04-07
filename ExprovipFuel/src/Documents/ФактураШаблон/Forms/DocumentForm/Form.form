@@ -665,6 +665,39 @@
               </extInfo>
             </items>
             <items xsi:type="form:FormField">
+              <name>ТранзакцииКартаБлокировка</name>
+              <id>131</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Объект.Транзакции.Карта.Блокировка</segments>
+              </dataPath>
+              <extendedTooltip>
+                <name>ТранзакцииКартаБлокировкаРасширеннаяПодсказка</name>
+                <id>133</id>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <contextMenu>
+                <name>ТранзакцииКартаБлокировкаКонтекстноеМеню</name>
+                <id>132</id>
+                <autoFill>true</autoFill>
+              </contextMenu>
+              <type>CheckBoxField</type>
+              <editMode>Enter</editMode>
+              <showInHeader>true</showInHeader>
+              <headerHorizontalAlign>Left</headerHorizontalAlign>
+              <showInFooter>true</showInFooter>
+              <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+            </items>
+            <items xsi:type="form:FormField">
               <name>ТранзакцииАвтомобиль</name>
               <id>41</id>
               <visible>true</visible>

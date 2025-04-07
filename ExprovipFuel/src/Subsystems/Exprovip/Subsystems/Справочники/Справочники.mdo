@@ -14,5 +14,6 @@
   <content>Catalog.МестаТранзакции</content>
   <content>Catalog.Карточки</content>
   <content>Catalog.Скидки</content>
+  <content>Catalog.Настройки</content>
   <parentSubsystem>Subsystem.Exprovip</parentSubsystem>
 </mdclass:Subsystem>

@@ -24,29 +24,9 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.Фактура.Form.DocumentForm</defaultObjectForm>
+  <realTimePosting>Deny</realTimePosting>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="28a96349-c36c-4167-949b-959cd1388e9f">
-    <name>Поставщик</name>
-    <synonym>
-      <key>ru</key>
-      <value>Поставщик</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Контрагенты</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <choiceParameters>
-      <name>Отбор.ЭтоПоставщик</name>
-      <value xsi:type="core:BooleanValue">
-        <value>true</value>
-      </value>
-    </choiceParameters>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="f2b9e650-57c5-4201-bf83-ac1396910300">
     <name>ПоследнийНомерПечати</name>
     <synonym>
@@ -66,16 +46,13 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="b3a4d06b-2183-4e02-acf2-6efb115c2321">
-    <name>МетодРасчетаСкидки</name>
+    <name>флагСчитатьСкидкуОтМестаТранзакции</name>
     <synonym>
       <key>ru</key>
-      <value>Метод расчета скидки</value>
+      <value>Считать скидку от места транзакции</value>
     </synonym>
     <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>1</precision>
-      </numberQualifiers>
+      <types>Boolean</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -165,9 +142,7 @@
       </synonym>
       <type>
         <types>Date</types>
-        <dateQualifiers>
-          <dateFractions>Date</dateFractions>
-        </dateQualifiers>
+        <dateQualifiers/>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

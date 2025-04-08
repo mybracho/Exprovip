@@ -18,10 +18,8 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
-  <numberType>String</numberType>
-  <numberLength>9</numberLength>
+  <numberLength>5</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
-  <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ФактураШаблон.Form.DocumentForm</defaultObjectForm>
   <defaultListForm>Document.ФактураШаблон.Form.ListForm</defaultListForm>

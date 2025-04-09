@@ -122,6 +122,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="9ddd1521-b3ee-4d68-abfb-9c7b9e4bb615">
+    <name>ПечатьФактур</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать фактур</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="98f1bc9b-38e6-4fe2-b7fd-c447d89fd411">
     <producedTypes>
       <objectType typeId="a20257a5-0bd7-4e37-95f7-713500799fd4" valueTypeId="68d1b696-a780-4f20-8deb-31be5d6e27c7"/>

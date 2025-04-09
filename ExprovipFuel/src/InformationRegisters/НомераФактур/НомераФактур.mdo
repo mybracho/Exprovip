@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88491850-083d-4dfc-9f98-0d91c30a8b6a">
+  <producedTypes>
+    <selectionType typeId="b12ba4b1-31af-4977-a2d6-2e3fad80860c" valueTypeId="c8bf2c09-db70-44bc-8ba5-e978f8ea3788"/>
+    <listType typeId="7c857113-8837-4455-890c-d4a01c764e77" valueTypeId="96252b09-a964-4a4f-977c-19a8b99dbe98"/>
+    <managerType typeId="71fc4e37-2dd8-49aa-92dc-df3c4517ae6d" valueTypeId="f92a4342-ab22-43c0-9557-ae4bd84ef989"/>
+    <recordSetType typeId="22c8ab72-edb6-42ff-a687-4ec1ef54d0a4" valueTypeId="2fdcb6f1-eb73-4868-92df-bd671ddda3a2"/>
+    <recordKeyType typeId="fdd73a64-5196-4f02-96f6-fa2df00ca5d7" valueTypeId="828cf00d-0aa8-42af-82c2-dcb4800747bd"/>
+    <recordType typeId="40f407b9-3363-4e7d-9a85-04000dd6f7ba" valueTypeId="bf61a843-2e14-4098-934c-09b7dfc8a3f0"/>
+    <recordManagerType typeId="45e45d65-a3f8-4643-951e-ac1d323e101a" valueTypeId="adb54aad-f081-4307-9bcf-dfceb0fd30f0"/>
+  </producedTypes>
+  <name>НомераФактур</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номера фактур</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e890fda2-9180-4f2d-8a1d-b84175858cbc">
+    <name>НомерФактуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер фактуры</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="be3ad2f6-ec9b-4922-b2e7-c43780f43742">
+    <name>Фактура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фактура</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Фактура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="316cbbea-af77-483f-b53a-60072a58f5e6">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

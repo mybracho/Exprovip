@@ -10,5 +10,6 @@
   <content>DataProcessor.ПереносДанныхИз77</content>
   <content>InformationRegister.УсловияСкидокНаЗаправкахИстория</content>
   <content>InformationRegister.СвойстваМестТранзакций</content>
+  <content>InformationRegister.НомераФактур</content>
   <parentSubsystem>Subsystem.Exprovip</parentSubsystem>
 </mdclass:Subsystem>

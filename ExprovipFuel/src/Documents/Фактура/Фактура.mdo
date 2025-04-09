@@ -503,4 +503,11 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <templates uuid="b2500d33-6780-4184-9dbd-0e7ee6858faa">
+    <name>ПечатьФактуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать фактуры</value>
+    </synonym>
+  </templates>
 </mdclass:Document>

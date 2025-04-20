@@ -417,6 +417,7 @@
     <verticalScrollBar>AutoUse</verticalScrollBar>
     <horizontalLines>true</horizontalLines>
     <verticalLines>true</verticalLines>
+    <useAlternationRowColor>true</useAlternationRowColor>
     <searchOnInput>Auto</searchOnInput>
     <initialListView>Auto</initialListView>
     <horizontalStretch>true</horizontalStretch>
@@ -612,7 +613,10 @@
       </title>
       <id>10</id>
       <valueType>
-        <types>CatalogRef.Автомобили</types>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
       </valueType>
       <view>
         <common>true</common>
@@ -789,6 +793,48 @@
       <id>20</id>
       <valueType>
         <types>CatalogRef.Валюты</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Скидка</name>
+      <title>
+        <key>ru</key>
+        <value>Скидка</value>
+      </title>
+      <id>21</id>
+      <valueType>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>6</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ЦенаСоСкидкой</name>
+      <title>
+        <key>ru</key>
+        <value>Цена со скидкой</value>
+      </title>
+      <id>22</id>
+      <valueType>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>19</precision>
+          <scale>4</scale>
+        </numberQualifiers>
       </valueType>
       <view>
         <common>true</common>

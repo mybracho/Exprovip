@@ -19,10 +19,10 @@
     "md-legacy-check-missing-assignments": {
       "enabled": false
     },
-    "right-configuration-extensions-administration": {
+    "bsl-legacy-check-is-appropriate-ctor": {
       "enabled": false
     },
-    "bsl-legacy-check-is-appropriate-ctor": {
+    "right-configuration-extensions-administration": {
       "enabled": false
     },
     "bsl-legacy-check-continue-statement": {
@@ -40,22 +40,22 @@
     "right-data-administration": {
       "enabled": false
     },
-    "bsl-legacy-check-pragma-for-unused-method": {
-      "enabled": false
-    },
     "bsl-legacy-check-static-feature-access-for-unknown-left-part": {
       "enabled": false
     },
     "form-legacy-check-event-handler": {
       "enabled": false
     },
+    "bsl-legacy-check-pragma-for-unused-method": {
+      "enabled": false
+    },
     "bsl-legacy-check-break-statement": {
       "enabled": false
     },
-    "bsl-legacy-check-string-literal": {
+    "right-interactive-clear-deletion-mark-predefined-data": {
       "enabled": false
     },
-    "right-interactive-clear-deletion-mark-predefined-data": {
+    "bsl-legacy-check-string-literal": {
       "enabled": false
     },
     "bsl-legacy-check-variable-names-are-unique-method": {
@@ -79,10 +79,10 @@
     "md-ext-legacy-check-adopted-md-object-source-exists": {
       "enabled": false
     },
-    "right-interactive-set-deletion-mark-predefined-data": {
+    "md-legacy-check-table": {
       "enabled": false
     },
-    "md-legacy-check-table": {
+    "right-interactive-set-deletion-mark-predefined-data": {
       "enabled": false
     },
     "right-update-database-configuration": {
@@ -103,10 +103,10 @@
     "bsl-legacy-check-variable-names-are-unique-module": {
       "enabled": false
     },
-    "graphical-scheme-legacy-check-for-split-outgoing-connections-count": {
+    "graphical-scheme-legacy-check-for-cycles": {
       "enabled": false
     },
-    "graphical-scheme-legacy-check-for-cycles": {
+    "graphical-scheme-legacy-check-for-split-outgoing-connections-count": {
       "enabled": false
     },
     "right-start-web-client": {
@@ -154,10 +154,10 @@
     "right-interactive-delete-predefined-data": {
       "enabled": false
     },
-    "right-start-external-connection": {
+    "form-legacy-check-command-handler": {
       "enabled": false
     },
-    "form-legacy-check-command-handler": {
+    "right-start-external-connection": {
       "enabled": false
     },
     "right-interactive-delete-marked-predefined-data": {
@@ -265,6 +265,9 @@
     "right-active-users": {
       "enabled": false
     },
+    "module-structure-top-region": {
+      "enabled": false
+    },
     "md-legacy-emf-check": {
       "enabled": false
     },
@@ -322,13 +325,13 @@
     "bsl-legacy-check-method-annotations": {
       "enabled": false
     },
-    "bsl-legacy-check-preprocessors-lines": {
-      "enabled": false
-    },
     "bsl-legacy-check-if-preprocessor-part-environments": {
       "enabled": false
     },
     "bsl-legacy-check-date-literal": {
+      "enabled": false
+    },
+    "bsl-legacy-check-preprocessors-lines": {
       "enabled": false
     },
     "md-legacy-check-name-in-data-source-dimensiontable": {
@@ -361,11 +364,11 @@
     "bsl-legacy-check-method-for-statements-after-return": {
       "enabled": false
     },
-    "graphical-scheme-legacy-check-for-addressing-attributes-values-existance": {
-      "enabled": false
-    },
     "rollback-transaction": {
       "enabled": true
+    },
+    "graphical-scheme-legacy-check-for-addressing-attributes-values-existance": {
+      "enabled": false
     },
     "md-ext-legacy-check-extended-configuration-object": {
       "enabled": false

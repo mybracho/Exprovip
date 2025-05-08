@@ -1007,6 +1007,7 @@
   <catalogs>Catalog.Настройки</catalogs>
   <documents>Document.ФактураШаблон</documents>
   <documents>Document.Фактура</documents>
+  <documents>Document.ОплатаПоставщикам</documents>
   <enums>Enum.ВариантыВерсионированияОбъектов</enums>
   <enums>Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок</enums>
   <enums>Enum.ВариантыПериода</enums>

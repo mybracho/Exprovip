@@ -9,5 +9,6 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.ФактураШаблон</content>
   <content>Document.Фактура</content>
+  <content>Document.ОплатаПоставщикам</content>
   <parentSubsystem>Subsystem.Exprovip</parentSubsystem>
 </mdclass:Subsystem>

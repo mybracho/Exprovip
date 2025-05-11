@@ -373,6 +373,9 @@
     "md-ext-legacy-check-extended-configuration-object": {
       "enabled": false
     },
+    "statement-type-change": {
+      "enabled": false
+    },
     "right-save-user-data": {
       "enabled": false
     }

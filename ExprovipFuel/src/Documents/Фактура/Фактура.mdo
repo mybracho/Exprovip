@@ -22,7 +22,9 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.Фактура.Form.DocumentForm</defaultObjectForm>
+  <defaultListForm>Document.Фактура.Form.ФормаСписка</defaultListForm>
   <realTimePosting>Deny</realTimePosting>
+  <registerRecords>AccumulationRegister.ВзаиморасчетыКлиенты</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="f2b9e650-57c5-4201-bf83-ac1396910300">
@@ -127,6 +129,15 @@
     <synonym>
       <key>ru</key>
       <value>Печать фактур</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="682cd4da-2c4c-43a9-b92f-03bdb604608d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

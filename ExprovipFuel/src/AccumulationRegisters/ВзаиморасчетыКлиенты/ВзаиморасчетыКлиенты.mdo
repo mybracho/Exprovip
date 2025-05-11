@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b36a84d-a47a-43ca-acc3-3467ce9ee0cf">
+  <producedTypes>
+    <selectionType typeId="558572e5-3626-49da-9396-368887f55409" valueTypeId="604bdc5f-2fac-4caa-8838-6c072ef10bab"/>
+    <listType typeId="898c30a2-a521-430d-8216-4807deed80e2" valueTypeId="88a67770-f65d-493d-b45a-43b33b710e38"/>
+    <managerType typeId="1f6dcbca-721d-45be-a08e-f0749960da46" valueTypeId="efbec435-8af3-4e29-b362-ccbb8676c65c"/>
+    <recordSetType typeId="b0532780-6ee3-49fc-8563-968f240b4d60" valueTypeId="b4d12b9d-2927-4440-9902-ed1b7242e526"/>
+    <recordKeyType typeId="71a14d79-78e5-4372-8310-123938b77806" valueTypeId="7f75e70a-8820-467a-aafe-69b2160ed948"/>
+    <recordType typeId="eb6535d4-20ec-4457-9029-d561c3bf1a74" valueTypeId="43df57af-6cff-453e-bc32-f09afba7ed2a"/>
+  </producedTypes>
+  <name>ВзаиморасчетыКлиенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взаиморасчеты с клиентами</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="9ed28768-af63-4025-98db-dab8755fcdb2">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="aaa2bf40-f231-412f-ac7a-cd3718f9f4aa">
+    <name>ДатаТранзакции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата транзакции</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="7f50c343-60b2-4377-9abf-f0721eea1cf0">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="672c305e-c818-4603-a0e4-6905a409d9f5">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

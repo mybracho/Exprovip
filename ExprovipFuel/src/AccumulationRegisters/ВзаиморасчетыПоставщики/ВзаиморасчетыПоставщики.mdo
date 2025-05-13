@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2fa46cbe-9fed-4668-8fef-5cabdd184243">
+  <producedTypes>
+    <selectionType typeId="be35faec-e59f-43e3-8612-8749e6294907" valueTypeId="d65eb0d7-0296-45f7-bc69-875f145f477b"/>
+    <listType typeId="6f51366b-7e84-46d3-97da-2c29bad27c8a" valueTypeId="75160c46-8a03-4926-a180-d0af5b2b5bbc"/>
+    <managerType typeId="da7bd881-2eda-4462-98f3-40686a2988f9" valueTypeId="ae1345c5-6f17-4f5a-bd7a-65a947718ee9"/>
+    <recordSetType typeId="13757f75-495f-4577-baf5-67385f50edb5" valueTypeId="f0dd529a-e49d-4c5d-a4d9-5f196e41b444"/>
+    <recordKeyType typeId="3f447af0-6cd8-436e-9983-1ca734366931" valueTypeId="0255b12c-e191-4c16-b7d5-3179126335a7"/>
+    <recordType typeId="eb087f77-2049-4837-b654-a0ec964d8b11" valueTypeId="5c228535-2f93-4a08-8b75-4dba1e70c48c"/>
+  </producedTypes>
+  <name>ВзаиморасчетыПоставщики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взаиморасчеты поставщики</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="341401f8-e23d-4574-8d71-fc5151c263c2">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>20</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="357cdd5e-1404-4c5c-ae3b-be58f3d453e3">
+    <name>СуммаВалютная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма валютная</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>20</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="0090628b-80cb-4fb7-a530-1523c9bba62d">
+    <name>СуммаДороги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма дороги</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>20</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="369e465f-f967-450d-a508-967aa18f4a6b">
+    <name>ДатаТранзакции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата транзакции</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="9db2e233-a24f-4327-9eb4-9f2a324a85a1">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="cfb67e5f-5d04-41e6-a2da-23ecd2e05196">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

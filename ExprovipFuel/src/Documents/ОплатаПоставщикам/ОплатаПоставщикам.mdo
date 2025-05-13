@@ -29,6 +29,7 @@
   <defaultObjectForm>Document.ОплатаПоставщикам.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.ОплатаПоставщикам.Form.ФормаСписка</defaultListForm>
   <realTimePosting>Deny</realTimePosting>
+  <registerRecords>AccumulationRegister.ВзаиморасчетыПоставщики</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="4325ad5c-305d-4c7d-9be6-17283b57b15e">

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="047f9cbc-91e5-4ce7-bb00-e1c16402d502">
+  <producedTypes>
+    <selectionType typeId="01d91fae-3fd5-470d-958b-7806dda3f28e" valueTypeId="d0be0f7e-5231-4ee2-bedd-40a6a6c9a07a"/>
+    <listType typeId="a1758af5-ee49-400d-9315-fc8476cda734" valueTypeId="12b63b52-2129-4b05-9d13-56cc443b2744"/>
+    <managerType typeId="68a00479-40f8-430e-aa4d-8f30d47356db" valueTypeId="8cff550c-140a-405f-8318-bddd9d1e9c7a"/>
+    <recordSetType typeId="5cf07f02-f7c0-4343-ab81-01ad2610bc18" valueTypeId="87d23c08-1e3f-4a30-965d-1d0abb519cbd"/>
+    <recordKeyType typeId="7764edf5-5e1c-459c-a26f-8421be1899bf" valueTypeId="eaa22516-f32e-497b-b572-b2d225a9d341"/>
+    <recordType typeId="229eaaca-fc7d-4882-8592-3b81eba7d18d" valueTypeId="6660163f-5604-4e4f-9bda-bfa60dab76b7"/>
+  </producedTypes>
+  <name>ОборотыТоплива</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обороты топлива</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="ef2afc87-e31c-4f21-a15a-88dccf5d6b23">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>19</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="d32c4c43-e2a5-4d16-b4df-1339d494c55c">
+    <name>ДатаТранзакции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата транзакции</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="0c2c451d-2f8c-4241-9822-c7c39ab29be1">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="e1942c71-89ef-42ce-af99-8af4189fe2e1">
+    <name>Карта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Карточки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="585daf75-6709-490f-bb96-cce721dfe915">
+    <name>Продукт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

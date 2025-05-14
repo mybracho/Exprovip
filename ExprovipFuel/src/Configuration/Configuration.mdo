@@ -1135,5 +1135,6 @@
   <informationRegisters>InformationRegister.НомераФактур</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ВзаиморасчетыКлиенты</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ВзаиморасчетыПоставщики</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОборотыТоплива</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.РазделыДатЗапретаИзменения</chartsOfCharacteristicTypes>
 </mdclass:Configuration>

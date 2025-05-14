@@ -26,6 +26,7 @@
   <realTimePosting>Deny</realTimePosting>
   <registerRecords>AccumulationRegister.ВзаиморасчетыКлиенты</registerRecords>
   <registerRecords>AccumulationRegister.ВзаиморасчетыПоставщики</registerRecords>
+  <registerRecords>AccumulationRegister.ОборотыТоплива</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="f2b9e650-57c5-4201-bf83-ac1396910300">

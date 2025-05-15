@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49851954-fa69-4464-b85e-ad3c15f4d0e2">
+  <producedTypes>
+    <objectType typeId="1e7edcad-79af-478b-a628-46a5fcc18447" valueTypeId="51cc7046-4cc5-48f2-a869-aee34db1d5c0"/>
+    <managerType typeId="de9b219a-a8bf-4ed7-9dcf-c96623cdaa95" valueTypeId="d68fbfa1-c34b-4e1f-a0db-449889e9c5c2"/>
+  </producedTypes>
+  <name>РеестрФактур</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реестр фактур</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РеестрФактур.Form.Форма</defaultForm>
+  <forms uuid="5c007688-2f95-4d51-8974-d00e3bdb747f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="10ccd8f7-933a-4cdf-888c-a204b5aaa220">
+    <name>РеестрФактур</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реестр фактур</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

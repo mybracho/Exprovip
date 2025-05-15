@@ -10,6 +10,7 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.Truck24</picture>
   </picture>
+  <content>DataProcessor.РеестрФактур</content>
   <subsystems>Справочники</subsystems>
   <subsystems>Документы</subsystems>
   <subsystems>Отчеты</subsystems>

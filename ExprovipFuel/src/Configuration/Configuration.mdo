@@ -925,6 +925,7 @@
   <constants>Constant.УчетнаяЗаписьДляВосстановленияПароля</constants>
   <constants>Constant.ХранитьФайлыВТомахНаДиске</constants>
   <constants>Constant.УдалитьНастройкиВходаПользователей</constants>
+  <constants>Constant.ДатаНачалаДвиженияПоРегистрамВзаиморасчетов</constants>
   <commonForms>CommonForm.БлокировкаРаботыСВнешнимиРесурсами</commonForms>
   <commonForms>CommonForm.ВопросОбУстановкеРасширенияРаботыСФайлами</commonForms>
   <commonForms>CommonForm.Вопрос</commonForms>
@@ -1009,6 +1010,7 @@
   <documents>Document.Фактура</documents>
   <documents>Document.ОплатаПоставщикам</documents>
   <documents>Document.ОплатаФактур</documents>
+  <documents>Document.ВводОстатков</documents>
   <enums>Enum.ВариантыВерсионированияОбъектов</enums>
   <enums>Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок</enums>
   <enums>Enum.ВариантыПериода</enums>

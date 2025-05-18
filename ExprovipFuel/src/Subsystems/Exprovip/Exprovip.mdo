@@ -11,6 +11,7 @@
     <picture>CommonPicture.Truck24</picture>
   </picture>
   <content>DataProcessor.РеестрФактур</content>
+  <content>Constant.ДатаНачалаДвиженияПоРегистрамВзаиморасчетов</content>
   <subsystems>Справочники</subsystems>
   <subsystems>Документы</subsystems>
   <subsystems>Отчеты</subsystems>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3040db4-cdd1-4daf-9acc-6bba3be93fd7">
+  <producedTypes>
+    <objectType typeId="15feeac9-050b-452c-aef6-f33aa64e01ea" valueTypeId="ee5e563e-3b19-4450-8636-3ba6dd8848e3"/>
+    <refType typeId="c1b44f2e-38eb-4b9a-8e2f-410c41818b45" valueTypeId="940ee082-594f-454a-a735-b06ff8608082"/>
+    <selectionType typeId="cd6cd996-56e8-4931-8780-bf81db5c3322" valueTypeId="3cd11d8e-e877-40e9-ad3e-619b117b78c2"/>
+    <listType typeId="cd01dfb8-62fc-4920-be1e-e3c2e9bdf813" valueTypeId="8ba20326-c456-46ea-91f2-7ebc0d7a7ccd"/>
+    <managerType typeId="2d197d19-c582-48e5-a1d7-fc43788ebb53" valueTypeId="ed979c34-1c35-47d4-a759-9c029c127c56"/>
+  </producedTypes>
+  <name>ВводОстатков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ввод остатков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ВводОстатков.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Ввод остатков</value>
+  </objectPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ВводОстатков.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ВводОстатков.Form.ФормаСписка</defaultListForm>
+  <registerRecords>AccumulationRegister.ВзаиморасчетыПоставщики</registerRecords>
+  <registerRecords>AccumulationRegister.ВзаиморасчетыКлиенты</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="c1781e46-ff4b-41b5-b77d-bd97c4c90743">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="6ff38246-4cc0-4154-958d-198c86043f82">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="43fb550f-de10-44ee-a243-cf3bba506a68">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="b1c0e994-cbc6-42a8-b944-cd3f1662da14">
+    <producedTypes>
+      <objectType typeId="c6464de1-5d9c-4f6d-a767-5be2fa58547f" valueTypeId="f71ce199-bdbb-49a3-a098-0b70f5698931"/>
+      <rowType typeId="34493283-a30c-470e-84a8-20877e46bc3c" valueTypeId="9195b692-9536-495e-92f2-c3504129eae5"/>
+    </producedTypes>
+    <name>ВзаиморасчетыКлиенты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Взаиморасчеты клиенты</value>
+    </synonym>
+    <attributes uuid="0351c983-45c8-4cbe-870d-9c890db7e33f">
+      <name>Контрагент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контрагент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.ЭтоКлиент</name>
+        <value xsi:type="core:BooleanValue">
+          <value>true</value>
+        </value>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="661118bf-a0f9-44cc-9b31-f465712f7831">
+      <name>Валюта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Валюта</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Валюты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b9f43b5a-ac49-4bf9-be86-c334b9b764ae">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>19</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="cc13e697-4f41-4faf-b8dd-afbc78114e85">
+    <producedTypes>
+      <objectType typeId="867cb1bb-7b69-4d0c-8572-52ae8c2062c2" valueTypeId="b4e971af-f1df-472e-a1e1-0727f8790550"/>
+      <rowType typeId="0a6d578e-a57d-4beb-8cb1-627bcdabad98" valueTypeId="32d049e6-eaa0-4767-a9ba-477ebc707601"/>
+    </producedTypes>
+    <name>ВзаиморасчетыПоставщики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Взаиморасчеты поставщики</value>
+    </synonym>
+    <attributes uuid="6811d3c0-3a66-4974-a6ef-b612816aab68">
+      <name>Контрагент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контрагент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.ЭтоПоставщик</name>
+        <value xsi:type="core:BooleanValue">
+          <value>true</value>
+        </value>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="06ef3834-a852-4ac8-94f5-92e45f4ad4db">
+      <name>Валюта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Валюта</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Валюты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7f2dd7f0-a2e9-4444-8a5c-5ace1066b799">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>19</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

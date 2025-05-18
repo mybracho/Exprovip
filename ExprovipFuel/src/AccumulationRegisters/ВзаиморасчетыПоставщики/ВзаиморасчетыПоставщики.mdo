@@ -33,40 +33,6 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <resources uuid="357cdd5e-1404-4c5c-ae3b-be58f3d453e3">
-    <name>СуммаВалютная</name>
-    <synonym>
-      <key>ru</key>
-      <value>Сумма валютная</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>20</precision>
-        <scale>2</scale>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-  </resources>
-  <resources uuid="0090628b-80cb-4fb7-a530-1523c9bba62d">
-    <name>СуммаДороги</name>
-    <synonym>
-      <key>ru</key>
-      <value>Сумма дороги</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>20</precision>
-        <scale>2</scale>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-  </resources>
   <attributes uuid="369e465f-f967-450d-a508-967aa18f4a6b">
     <name>ДатаТранзакции</name>
     <synonym>

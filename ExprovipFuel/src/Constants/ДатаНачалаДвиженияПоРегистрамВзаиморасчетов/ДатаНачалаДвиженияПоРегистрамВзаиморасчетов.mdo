@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0ae2480-d63a-4d21-a59f-ea51c986a9c7">
+  <producedTypes>
+    <managerType typeId="f0887c4d-3c85-4cad-bbfd-fa9ba1bd1dca" valueTypeId="72169fa1-77e8-4d4e-a084-db3ff5868fd2"/>
+    <valueManagerType typeId="83757b6b-33d5-4ec2-b97e-16b52317368a" valueTypeId="67a86df1-e73a-46b4-b1cd-e3572364a1b2"/>
+    <valueKeyType typeId="128267a7-8534-40f4-849d-99457c03a973" valueTypeId="f2883e89-f6f7-4666-a096-3eb49f08217e"/>
+  </producedTypes>
+  <name>ДатаНачалаДвиженияПоРегистрамВзаиморасчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дата начала движения по регистрам взаиморасчетов</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

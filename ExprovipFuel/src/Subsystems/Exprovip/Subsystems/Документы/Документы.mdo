@@ -11,5 +11,6 @@
   <content>Document.Фактура</content>
   <content>Document.ОплатаПоставщикам</content>
   <content>Document.ОплатаФактур</content>
+  <content>Document.ВводОстатков</content>
   <parentSubsystem>Subsystem.Exprovip</parentSubsystem>
 </mdclass:Subsystem>

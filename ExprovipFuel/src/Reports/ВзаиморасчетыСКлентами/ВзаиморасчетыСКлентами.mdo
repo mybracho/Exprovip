@@ -10,7 +10,17 @@
     <value>Взаиморасчеты с клентами</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ВзаиморасчетыСКлентами.Form.ФормаОтчета</defaultForm>
   <mainDataCompositionSchema>Report.ВзаиморасчетыСКлентами.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="1db3c798-3645-4b7d-97cf-fde9e892b39e">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="d45d22ed-67ec-4e70-b949-140b615dcb07">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>

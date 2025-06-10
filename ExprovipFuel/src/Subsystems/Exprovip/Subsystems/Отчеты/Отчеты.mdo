@@ -7,5 +7,7 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Report.ВзаиморасчетыСКлентами</content>
+  <content>Report.ВзаиморасчетыСПоставщиками</content>
   <parentSubsystem>Subsystem.Exprovip</parentSubsystem>
 </mdclass:Subsystem>

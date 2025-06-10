@@ -29,6 +29,7 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ВводОстатков.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.ВводОстатков.Form.ФормаСписка</defaultListForm>
+  <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
   <registerRecords>AccumulationRegister.ВзаиморасчетыПоставщики</registerRecords>
   <registerRecords>AccumulationRegister.ВзаиморасчетыКлиенты</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>

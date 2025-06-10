@@ -24,6 +24,7 @@
   <defaultObjectForm>Document.Фактура.Form.DocumentForm</defaultObjectForm>
   <defaultListForm>Document.Фактура.Form.ФормаСписка</defaultListForm>
   <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
   <registerRecords>AccumulationRegister.ВзаиморасчетыКлиенты</registerRecords>
   <registerRecords>AccumulationRegister.ВзаиморасчетыПоставщики</registerRecords>
   <registerRecords>AccumulationRegister.ОборотыТоплива</registerRecords>

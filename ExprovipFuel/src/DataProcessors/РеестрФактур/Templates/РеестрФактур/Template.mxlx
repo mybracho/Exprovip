@@ -184,7 +184,7 @@
 			</c>
 			<c>
 				<c>
-					<f>12</f>
+					<f>14</f>
 					<parameter>Количество</parameter>
 				</c>
 			</c>
@@ -209,7 +209,7 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>14</f>
+					<f>15</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -220,28 +220,28 @@
 			</c>
 			<c>
 				<c>
-					<f>15</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>15</f>
+					<f>16</f>
 				</c>
 			</c>
 			<c>
 				<c>
 					<f>16</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>17</f>
 					<parameter>ИтогКоличество</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>15</f>
+					<f>16</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>16</f>
+					<f>17</f>
 					<parameter>ИтогИтог</parameter>
 				</c>
 			</c>
@@ -250,7 +250,7 @@
 	<drawing>
 		<drawingType>Picture</drawingType>
 		<id>2</id>
-		<formatIndex>17</formatIndex>
+		<formatIndex>18</formatIndex>
 		<beginRow>8</beginRow>
 		<beginRowOffset>32</beginRowOffset>
 		<endRow>0</endRow>
@@ -271,7 +271,7 @@
 		<f>8</f>
 	</leftFooter>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>18</defaultFormatIndex>
+	<defaultFormatIndex>19</defaultFormatIndex>
 	<height>16</height>
 	<vgRows>16</vgRows>
 	<merge>
@@ -382,6 +382,18 @@
 			<v8:item>
 				<v8:lang>ru</v8:lang>
 				<v8:content>ДФ=dd.MM.yyyy</v8:content>
+			</v8:item>
+		</format>
+	</format>
+	<format>
+		<font>2</font>
+		<border>0</border>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<fillType>Parameter</fillType>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧДЦ=2</v8:content>
 			</v8:item>
 		</format>
 	</format>

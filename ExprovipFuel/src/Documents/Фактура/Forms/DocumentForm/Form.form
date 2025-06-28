@@ -2179,6 +2179,11 @@
           <enableStartDrag>true</enableStartDrag>
           <enableDrag>true</enableDrag>
           <fileDragMode>AsFileRef</fileDragMode>
+          <backColor xsi:type="core:ColorDef">
+            <red>242</red>
+            <green>242</green>
+            <blue>242</blue>
+          </backColor>
         </items>
         <visible>true</visible>
         <enabled>true</enabled>

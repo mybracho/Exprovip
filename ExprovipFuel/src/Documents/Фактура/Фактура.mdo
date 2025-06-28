@@ -540,4 +540,11 @@
       <value>Печать фактуры</value>
     </synonym>
   </templates>
+  <templates uuid="54133823-459a-4301-a97c-f2ceed49d336">
+    <name>ИтогиПоДокументу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Итоги по документу</value>
+    </synonym>
+  </templates>
 </mdclass:Document>

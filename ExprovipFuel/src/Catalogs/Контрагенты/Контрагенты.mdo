@@ -346,6 +346,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="56edc0b9-d5dd-4049-910f-03a9daa9b9ac">
+    <name>СтранаРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страна регистрации</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтраныМира</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="f5f48992-76cf-4d12-93f2-2505356b25bf">
     <producedTypes>
       <objectType typeId="b94d104d-88ed-4046-8882-f22eee1fcedf" valueTypeId="d18a3ee7-15f5-4734-9c9d-495fc48bb2ce"/>
@@ -633,4 +648,11 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <templates uuid="52ef3a0d-b0dc-4aa7-9536-d41b2abf81af">
+    <name>ПечатьКонвертов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать конвертов</value>
+    </synonym>
+  </templates>
 </mdclass:Catalog>

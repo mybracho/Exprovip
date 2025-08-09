@@ -32,10 +32,22 @@
 		<field xsi:type="DataSetFieldField">
 			<dataPath>СуммаПриход</dataPath>
 			<field>СуммаПриход</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сумма оплат</v8:content>
+				</v8:item>
+			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>СуммаРасход</dataPath>
 			<field>СуммаРасход</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сумма выборки</v8:content>
+				</v8:item>
+			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>СуммаНачальныйОстаток</dataPath>
@@ -69,22 +81,31 @@
 				<dcscom:periodType>Additional</dcscom:periodType>
 			</role>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПериодМесяц</dataPath>
+			<field>ПериодМесяц</field>
+			<role>
+				<dcscom:periodNumber>3</dcscom:periodNumber>
+				<dcscom:periodType>Additional</dcscom:periodType>
+			</role>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	ВзаиморасчетыКлиентыОстаткиИОбороты.Контрагент,
-	ВзаиморасчетыКлиентыОстаткиИОбороты.Валюта,
-	ВзаиморасчетыКлиентыОстаткиИОбороты.СуммаКонечныйОстаток,
-	ВзаиморасчетыКлиентыОстаткиИОбороты.СуммаПриход,
-	ВзаиморасчетыКлиентыОстаткиИОбороты.СуммаРасход,
-	ВзаиморасчетыКлиентыОстаткиИОбороты.СуммаНачальныйОстаток,
+	ВзаиморасчетыКлиентыОстаткиИОбороты.Контрагент КАК Контрагент,
+	ВзаиморасчетыКлиентыОстаткиИОбороты.Валюта КАК Валюта,
+	ВзаиморасчетыКлиентыОстаткиИОбороты.СуммаКонечныйОстаток КАК СуммаКонечныйОстаток,
+	ВзаиморасчетыКлиентыОстаткиИОбороты.СуммаПриход КАК СуммаПриход,
+	ВзаиморасчетыКлиентыОстаткиИОбороты.СуммаРасход КАК СуммаРасход,
+	ВзаиморасчетыКлиентыОстаткиИОбороты.СуммаНачальныйОстаток КАК СуммаНачальныйОстаток,
 	ВЫБОР
 		КОГДА ВзаиморасчетыКлиентыОстаткиИОбороты.Регистратор = НЕОПРЕДЕЛЕНО
 			ТОГДА NULL
 		ИНАЧЕ ВзаиморасчетыКлиентыОстаткиИОбороты.Регистратор
 	КОНЕЦ КАК Регистратор,
-	ВзаиморасчетыКлиентыОстаткиИОбороты.ПериодСекунда
+	ВзаиморасчетыКлиентыОстаткиИОбороты.ПериодСекунда КАК ПериодСекунда,
+	ВзаиморасчетыКлиентыОстаткиИОбороты.ПериодМесяц КАК ПериодМесяц
 ИЗ
-	РегистрНакопления.ВзаиморасчетыКлиенты.ОстаткиИОбороты(,, Авто,,) КАК ВзаиморасчетыКлиентыОстаткиИОбороты</query>
+	РегистрНакопления.ВзаиморасчетыКлиенты.ОстаткиИОбороты(, , Авто, , ) КАК ВзаиморасчетыКлиентыОстаткиИОбороты</query>
 	</dataSet>
 	<totalField>
 		<dataPath>СуммаКонечныйОстаток</dataPath>
@@ -167,16 +188,19 @@
 					<dcsset:field>СуммаНачальныйОстаток</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>СуммаПриход</dcsset:field>
+					<dcsset:field>СуммаРасход</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>СуммаРасход</dcsset:field>
+					<dcsset:field>СуммаПриход</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>СуммаКонечныйОстаток</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>Регистратор</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПериодМесяц</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:dataParameters>
@@ -193,11 +217,15 @@
 							<dcsset:field>Контрагент</dcsset:field>
 							<dcsset:groupType>Items</dcsset:groupType>
 							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
 						</dcsset:item>
 						<dcsset:item xsi:type="dcsset:GroupItemField">
 							<dcsset:field>Валюта</dcsset:field>
 							<dcsset:groupType>Items</dcsset:groupType>
 							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
 						</dcsset:item>
 					</dcsset:groupItems>
 					<dcsset:order>

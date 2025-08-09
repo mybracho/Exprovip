@@ -121,7 +121,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>СписокКурсы.Период</segments>
+        <segments>СписокКурсы.Period</segments>
       </dataPath>
       <extendedTooltip>
         <name>СписокКурсыПериодРасширеннаяПодсказка</name>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="183d0acc-3e7d-4ff8-8534-c0d9e2108d73">
+  <name>ЗагрузкаРоснефть</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка Роснефть</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

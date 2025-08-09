@@ -11,5 +11,6 @@
   <content>InformationRegister.УсловияСкидокНаЗаправкахИстория</content>
   <content>InformationRegister.СвойстваМестТранзакций</content>
   <content>InformationRegister.НомераФактур</content>
+  <content>InformationRegister.ВалютыВыставленияФактур</content>
   <parentSubsystem>Subsystem.Exprovip</parentSubsystem>
 </mdclass:Subsystem>

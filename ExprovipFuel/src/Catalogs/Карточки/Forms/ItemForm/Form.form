@@ -357,7 +357,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>ИсторияАвтомобилей.Период</segments>
+        <segments>ИсторияАвтомобилей.Period</segments>
       </dataPath>
       <extendedTooltip>
         <name>ИсторияАвтомобилейПериодРасширеннаяПодсказка</name>
@@ -594,6 +594,10 @@
         <autoMaxHeight>true</autoMaxHeight>
         <horizontalStretch>true</horizontalStretch>
         <verticalStretch>true</verticalStretch>
+        <border xsi:type="core:BorderDef">
+          <style>Single</style>
+          <width>1</width>
+        </border>
         <fileDragMode>AsFileRef</fileDragMode>
       </extInfo>
     </items>

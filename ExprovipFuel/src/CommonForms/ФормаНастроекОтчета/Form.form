@@ -1826,6 +1826,10 @@
             <valuesPicture xsi:type="core:PictureRef">
               <picture>CommonPicture.ПиктограммыДоступаКНастройкамОтчета</picture>
             </valuesPicture>
+            <border xsi:type="core:BorderDef">
+              <style>Single</style>
+              <width>1</width>
+            </border>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
@@ -3632,6 +3636,10 @@
               <autoMaxHeight>true</autoMaxHeight>
               <horizontalStretch>true</horizontalStretch>
               <verticalStretch>true</verticalStretch>
+              <border xsi:type="core:BorderDef">
+                <style>Single</style>
+                <width>1</width>
+              </border>
               <fileDragMode>AsFileRef</fileDragMode>
             </extInfo>
           </items>
@@ -6367,6 +6375,10 @@
             <valuesPicture xsi:type="core:PictureRef">
               <picture>CommonPicture.ПиктограммыДоступаКНастройкамОтчета</picture>
             </valuesPicture>
+            <border xsi:type="core:BorderDef">
+              <style>Single</style>
+              <width>1</width>
+            </border>
           </extInfo>
         </items>
         <commandBarLocation>Top</commandBarLocation>
@@ -7371,6 +7383,10 @@
             <valuesPicture xsi:type="core:PictureRef">
               <picture>CommonPicture.Отборы</picture>
             </valuesPicture>
+            <border xsi:type="core:BorderDef">
+              <style>Single</style>
+              <width>1</width>
+            </border>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
@@ -7430,6 +7446,10 @@
             <valuesPicture xsi:type="core:PictureRef">
               <picture>CommonPicture.ПоляИСортировки</picture>
             </valuesPicture>
+            <border xsi:type="core:BorderDef">
+              <style>Single</style>
+              <width>1</width>
+            </border>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
@@ -7489,6 +7509,10 @@
             <valuesPicture xsi:type="core:PictureRef">
               <picture>CommonPicture.Оформление</picture>
             </valuesPicture>
+            <border xsi:type="core:BorderDef">
+              <style>Single</style>
+              <width>1</width>
+            </border>
           </extInfo>
         </items>
         <commandBarLocation>Top</commandBarLocation>

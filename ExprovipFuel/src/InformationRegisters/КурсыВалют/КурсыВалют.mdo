@@ -132,7 +132,7 @@
       <types>Number</types>
       <numberQualifiers>
         <precision>15</precision>
-        <scale>2</scale>
+        <scale>4</scale>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -151,7 +151,7 @@
       <types>Number</types>
       <numberQualifiers>
         <precision>15</precision>
-        <scale>2</scale>
+        <scale>4</scale>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -170,7 +170,7 @@
       <types>Number</types>
       <numberQualifiers>
         <precision>15</precision>
-        <scale>2</scale>
+        <scale>4</scale>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>

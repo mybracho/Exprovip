@@ -12,13 +12,13 @@
 	<columns>
 		<size>5</size>
 		<columnsItem>
-			<index>1</index>
+			<index>0</index>
 			<column>
 				<formatIndex>1</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>0</index>
+			<index>1</index>
 			<column>
 				<formatIndex>2</formatIndex>
 			</column>
@@ -140,10 +140,10 @@
 	<font faceName="Arial" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="Arial" height="10" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<format>
-		<width>136</width>
+		<width>143</width>
 	</format>
 	<format>
-		<width>143</width>
+		<width>136</width>
 	</format>
 	<format>
 		<font>0</font>

@@ -25,9 +25,9 @@
   <defaultListForm>Document.Фактура.Form.ФормаСписка</defaultListForm>
   <realTimePosting>Deny</realTimePosting>
   <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
-  <registerRecords>AccumulationRegister.ВзаиморасчетыКлиенты</registerRecords>
-  <registerRecords>AccumulationRegister.ВзаиморасчетыПоставщики</registerRecords>
   <registerRecords>AccumulationRegister.ОборотыТоплива</registerRecords>
+  <registerRecords>AccumulationRegister.ВзаиморасчетыПоставщики</registerRecords>
+  <registerRecords>AccumulationRegister.ВзаиморасчетыКлиенты</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="f2b9e650-57c5-4201-bf83-ac1396910300">
@@ -456,6 +456,7 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
@@ -545,6 +546,13 @@
     <synonym>
       <key>ru</key>
       <value>Итоги по документу</value>
+    </synonym>
+  </templates>
+  <templates uuid="fc717c63-7025-4fd1-9129-1beb02e83835">
+    <name>ПечатьФактуры8</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать фактуры8</value>
     </synonym>
   </templates>
 </mdclass:Document>

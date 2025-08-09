@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="936be763-320e-4c8c-a8ed-44447d74bda2">
+  <name>ПечатьКонвертов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать конвертов</value>
+  </synonym>
+  <group>CommandGroup.Печать</group>
+  <commandParameterType>
+    <types>CatalogRef.Контрагенты</types>
+  </commandParameterType>
+  <parameterUseMode>Multiple</parameterUseMode>
+</mdclass:CommonCommand>

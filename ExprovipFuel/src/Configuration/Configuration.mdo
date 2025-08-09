@@ -12,6 +12,7 @@
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="e75e9b91-c2c2-4b75-bedc-2b322a0d96d9"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="2a0c70ab-3001-431f-89fe-cfff8f3a70f0"/>
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="4c269502-8e54-4556-b80b-b0f52c0f770d"/>
+  <configurationExtensionCompatibilityMode>8.3.25</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
@@ -745,6 +746,8 @@
   <commonModules>CommonModule.ЗагрузкаТатнефть</commonModules>
   <commonModules>CommonModule.ЗагрузкаЛукойлБеларусь</commonModules>
   <commonModules>CommonModule.ЗагрузкаБелтол</commonModules>
+  <commonModules>CommonModule.ЗагрузкаРоснефть</commonModules>
+  <commonModules>CommonModule.ЗагрузкаТатнефтьРФ</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApplicationExtensionsManifest_1_0_0_1</xDTOPackages>
   <xDTOPackages>XDTOPackage.ApplicationExtensionsPermissions_1_0_0_1</xDTOPackages>
@@ -867,6 +870,7 @@
   <commonCommands>CommonCommand.СозданиеСвязанныхОбъектов</commonCommands>
   <commonCommands>CommonCommand.УстановитьРасширениеДляРаботыС1СПредприятием</commonCommands>
   <commonCommands>CommonCommand.ФайлыВТоме</commonCommands>
+  <commonCommands>CommonCommand.ПечатьКонвертов</commonCommands>
   <commandGroups>CommandGroup.Информация</commandGroups>
   <commandGroups>CommandGroup.Органайзер</commandGroups>
   <commandGroups>CommandGroup.Печать</commandGroups>
@@ -1062,6 +1066,7 @@
   <reports>Report.УниверсальныйОтчет</reports>
   <reports>Report.ВзаиморасчетыСКлентами</reports>
   <reports>Report.ВзаиморасчетыСПоставщиками</reports>
+  <reports>Report.АктСверки</reports>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.БлокировкаРаботыПользователей</dataProcessors>
   <dataProcessors>DataProcessor.ВводКонтактнойИнформации</dataProcessors>
@@ -1138,6 +1143,7 @@
   <informationRegisters>InformationRegister.СвойстваМестТранзакций</informationRegisters>
   <informationRegisters>InformationRegister.УсловияСкидокНаЗаправкахИстория</informationRegisters>
   <informationRegisters>InformationRegister.НомераФактур</informationRegisters>
+  <informationRegisters>InformationRegister.ВалютыВыставленияФактур</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ВзаиморасчетыКлиенты</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ВзаиморасчетыПоставщики</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ОборотыТоплива</accumulationRegisters>

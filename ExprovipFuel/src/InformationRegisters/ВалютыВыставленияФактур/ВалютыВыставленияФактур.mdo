@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="016dada1-a573-4ff4-bad6-de3294cb3b84">
+  <producedTypes>
+    <selectionType typeId="a63b4732-8005-44d9-9e55-1321d6a504a1" valueTypeId="4d33d490-2023-44bd-8428-44cd63b03084"/>
+    <listType typeId="79e69edf-6162-4262-b678-ae37fa719f3d" valueTypeId="dd50f28d-afe9-4bbc-8fab-f18d1d50babf"/>
+    <managerType typeId="b19ac3e2-f137-4ea3-973c-6cabbe4cd4a3" valueTypeId="56b8e162-2b39-4168-8ce5-a76a69d84882"/>
+    <recordSetType typeId="9bc8335b-7650-454a-9764-0d9a005c3b70" valueTypeId="bfc7f6a9-f502-4b97-bead-6d1f004e3a0c"/>
+    <recordKeyType typeId="8531282a-93e8-41e4-8df6-b50ebac97ff5" valueTypeId="56590636-a537-455a-b36a-40716a526a9f"/>
+    <recordType typeId="cfdf37ad-68a7-49fc-aa95-7102fb6d95fc" valueTypeId="d17e86a8-b6bb-411e-a82a-387f9a8dff55"/>
+    <recordManagerType typeId="dc130f6e-5016-48ca-b2d7-483695e455a9" valueTypeId="c7413e30-e76f-4e64-bb01-fd55e8400909"/>
+  </producedTypes>
+  <name>ВалютыВыставленияФактур</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валюты выставления фактур</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ВалютыВыставленияФактур.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="807aba39-84ac-4542-843e-3c473b436ac9">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1717f011-843e-4298-bb26-17ce700830e8">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="ddb834b0-e9d0-4167-a11e-12c6ea2839cc">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="f5a10a62-955f-4273-8988-a4f1487f3561">
+    <name>ВалютаВыставленияФактур</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта выставления фактур</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.Контрагенты</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

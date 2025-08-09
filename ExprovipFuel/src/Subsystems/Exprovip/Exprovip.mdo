@@ -12,6 +12,7 @@
   </picture>
   <content>DataProcessor.РеестрФактур</content>
   <content>Constant.ДатаНачалаДвиженияПоРегистрамВзаиморасчетов</content>
+  <content>DataProcessor.ОбменССайтом</content>
   <subsystems>Справочники</subsystems>
   <subsystems>Документы</subsystems>
   <subsystems>Отчеты</subsystems>

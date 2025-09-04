@@ -141,6 +141,82 @@
 	Возврат ЗначениеЧислаПописью;		
 КонецФункции
 
+// Base64 from string.
+// 
+// Parameters:
+//  String - String - String
+//  ReturnBinary - Boolean - Return binary
+// 
+// Returns:
+//  String, BinaryData - Base64 from string
+Function Base64FromString(String, ReturnBinary = False) Export
+	
+	MemoryStream = New MemoryStream();
+	DataWriter = New DataWriter(MemoryStream, TextEncoding.UTF8);
+	DataWriter.WriteLine(String);
+	DataWriter.Close();
+	BinaryData = MemoryStream.CloseAndGetBinaryData();
+	
+	If ReturnBinary Then
+		Return BinaryData;
+	Else
+		StringBase64 = Base64String(BinaryData);
+		StringBase64 = Left(StringBase64, StrLen(StringBase64)-2);
+		StringBase64 = StringBase64 + "==";
+		Return StringBase64;
+	EndIf;	
+EndFunction
+
+// Сериализовать JSON.
+// 
+// Параметры:
+//  Значение - Неопределено
+// 
+// Возвращаемое значение:
+//  Строка - Сериализовать JSON
+Функция СериализоватьJSON(Значение) Экспорт
+	Настройки = Новый ПараметрыЗаписиJSON(, Chars.Tab);
+	ЗаписьJSON = Новый ЗаписьJSON();
+	ЗаписьJSON.УстановитьСтроку(Настройки);
+	ЗаписатьJSON(ЗаписьJSON, Значение);
+	Результат = ЗаписьJSON.Close();
+	Return Результат;
+КонецФункции
+
+// Deserialize JSON.
+// 
+// Parameters:
+//  Значение - String - Value
+//  ЧитатьВСоответствие - Boolean - Is map
+// 
+// Returns:
+//  Arbitrary - Deserialize JSON
+Function ДесериалозоватьJSON(Значение, ЧитатьВСоответствие = Ложь) Export
+	ЧтениеJSON = Новый ЧтениеJSON();
+	ЧтениеJSON.УстановитьСтроку(Значение);
+	Результат = ПрочитатьJSON(ЧтениеJSON, ЧитатьВСоответствие);
+	ЧтениеJSON.Close();
+	Return Результат;
+EndFunction
+
+// Значения реквизитов объекта.
+// 
+// Параметры:
+//  Ссылка - ЛюбаяСсылка
+//  Реквизиты - Строка
+//  ВыбратьРазрешенные - Булево - Выбрать разрешенные
+//  КодЯзыка - Неопределено - Код языка
+// 
+// Возвращаемое значение:
+//  Структура - Значения реквизитов объекта:
+// * Ошибка - Булево - 
+// * ОписаниеОшибки - Строка - 
+Функция ЗначенияРеквизитовОбъекта(Ссылка, Знач Реквизиты, ВыбратьРазрешенные = Ложь, Знач КодЯзыка = Неопределено) Экспорт
+	//@skip-check constructor-function-return-section
+	//@skip-check invocation-parameter-type-intersect
+	Возврат ОбщегоНазначения.ЗначенияРеквизитовОбъекта(Ссылка, Реквизиты, ВыбратьРазрешенные, КодЯзыка);
+КонецФункции	
+
 #КонецОбласти
 
 #Область СлужебныеПрцедурыИФункции
@@ -158,24 +234,6 @@
 		СоздатьКаталог(ПутьККаталогу);
 	КонецЕсли;
 КонецПроцедуры
-
-// Сериализовать JSON.
-// 
-// Параметры:
-//  Значение - Неопределено
-// 
-// Возвращаемое значение:
-//  Строка - Сериализовать JSON
-//@skip-check module-structure-method-in-regions
-//@skip-check redundant-export-method
-Функция СериализоватьJSON(Значение) Экспорт
-	Настройки = Новый ПараметрыЗаписиJSON(, Chars.Tab);
-	ЗаписьJSON = Новый ЗаписьJSON();
-	ЗаписьJSON.SetString(Настройки);
-	ЗаписатьJSON(ЗаписьJSON, Значение);
-	Результат = ЗаписьJSON.Close();
-	Return Результат;
-КонецФункции
 
 #КонецОбласти
 

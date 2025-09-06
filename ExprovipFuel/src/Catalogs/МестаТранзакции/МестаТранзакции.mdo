@@ -72,6 +72,25 @@
     <use>ForFolderAndItem</use>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="ae1d7871-ee21-4452-a819-c1f053309c4b">
+    <name>КодУчетаАПИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код учета (API)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="c4fac09c-94b3-48a0-91e8-d37c1173aba1">
     <name>ItemForm</name>
     <synonym>

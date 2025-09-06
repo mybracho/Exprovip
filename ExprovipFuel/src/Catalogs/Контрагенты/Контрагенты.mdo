@@ -430,6 +430,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="1484ca3f-882d-47fe-afa1-c5c35ed547b0">
+    <name>МодульОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модуль обмена</value>
+    </synonym>
+    <type>
+      <types>EnumRef.МодулиОбмена</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="f5f48992-76cf-4d12-93f2-2505356b25bf">
     <producedTypes>
       <objectType typeId="b94d104d-88ed-4046-8882-f22eee1fcedf" valueTypeId="d18a3ee7-15f5-4734-9c9d-495fc48bb2ce"/>

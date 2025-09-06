@@ -1054,6 +1054,7 @@
   <enums>Enum.ФорматыХраненияОдностраничныхФайлов</enums>
   <enums>Enum.ЦветностиИзображения</enums>
   <enums>Enum.ТипыЗаписиКнигиДоходовИРасходов</enums>
+  <enums>Enum.МодулиОбмена</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.ДатыЗапретаИзменения</reports>
   <reports>Report.ДвиженияДокумента</reports>

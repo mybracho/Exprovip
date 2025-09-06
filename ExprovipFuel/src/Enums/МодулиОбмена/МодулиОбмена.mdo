@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6544968b-56f6-44c7-b21a-494783ae12f5">
+  <producedTypes>
+    <refType typeId="c8263c50-7101-4b34-b50f-39bcf9e2a7ce" valueTypeId="207703a7-2ffa-46e6-ac99-9b4c73c2113f"/>
+    <listType typeId="4b993811-1234-425d-9a08-4379019437bf" valueTypeId="619cf5ad-c0ff-4f17-a11c-ac514db303a1"/>
+    <managerType typeId="033c8c73-9010-4e64-b55b-84a5dab4ccb8" valueTypeId="022096f1-c079-4f80-b1f9-a8113d2713ed"/>
+  </producedTypes>
+  <name>МодулиОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Модули обмена</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2a319323-9994-477b-a703-dbed4b09e011">
+    <name>БеларусьНефть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Беларусь нефть</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7e47864b-ae0d-45d1-841d-709f6eb347e7">
+    <name>ТранзитКард</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транзит кард</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4cfe2bac-a932-4eac-8f54-388c3a5095ca">
+    <name>Татнефть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Татнефть</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d6f23d20-7172-4003-98f7-5b796d897cc1">
+    <name>ТатнефтьРФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Татнефть РФ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5c6b7c89-cca2-4530-8af8-4c8c7cc14323">
+    <name>ЛукойлБеларусь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лукойл беларусь</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7455fc33-e49d-4bc7-bc58-a59500e36bc2">
+    <name>Белтол</name>
+    <synonym>
+      <key>ru</key>
+      <value>Белтол</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f45c5a71-a7ec-44ef-848e-2a4436f0328f">
+    <name>Роснефть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роснефть</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

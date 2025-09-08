@@ -51,6 +51,7 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
     <attributes uuid="bb145a15-c7dd-4fb1-b411-72b99939821e">
       <name>Эмитент</name>
@@ -69,6 +70,7 @@
           <value>true</value>
         </value>
       </choiceParameters>
+      <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
     <attributes uuid="667f3aaf-5474-490d-acf9-8243ca5d81b7">
       <name>Владелец</name>
@@ -81,6 +83,7 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
     <attributes uuid="3604fdbb-d79b-4609-8df0-2d9decd2be02">
       <name>ДатаБлокировкиРазблокировки</name>
@@ -96,6 +99,7 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
     <attributes uuid="de4b3cbf-7310-45d9-9fb4-b9cb45c8b0fb">
       <name>Архивная</name>
@@ -108,6 +112,7 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
     <attributes uuid="42abfe39-dee5-4d47-b415-8fe634b10e4c">
       <name>Обработать</name>
@@ -120,6 +125,7 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
     <attributes uuid="3cea5c0d-9380-4bab-8a36-02cd9c9a246e">
       <name>РезультатОбработки</name>
@@ -130,6 +136,34 @@
       <type>
         <types>String</types>
         <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="90effb24-7e60-483c-9d02-6a3585e2a929">
+      <name>Ошибка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ошибка</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ae0a94f9-f47c-485d-8e34-38789d01fe89">
+      <name>Блокировка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Блокировка</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

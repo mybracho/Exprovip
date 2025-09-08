@@ -571,6 +571,7 @@
     <backColor xsi:type="core:ColorRef">
       <color>Web.Gainsboro</color>
     </backColor>
+    <rowFilter xsi:type="core:UndefinedValue"/>
   </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>

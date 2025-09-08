@@ -1652,7 +1652,7 @@
 			</c>
 			<c>
 				<c>
-					<f>94</f>
+					<f>95</f>
 					<parameter>Цена</parameter>
 				</c>
 			</c>
@@ -1670,19 +1670,19 @@
 			</c>
 			<c>
 				<c>
-					<f>95</f>
+					<f>96</f>
 					<parameter>ЦенаСоСкидкой</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>96</f>
+					<f>97</f>
 					<parameter>СуммаСкидки</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>97</f>
+					<f>98</f>
 					<parameter>Итого</parameter>
 				</c>
 			</c>
@@ -1691,10 +1691,10 @@
 	<rowsItem>
 		<index>41</index>
 		<row>
-			<formatIndex>98</formatIndex>
+			<formatIndex>99</formatIndex>
 			<c>
 				<c>
-					<f>99</f>
+					<f>100</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1706,40 +1706,40 @@
 			<c>
 				<i>6</i>
 				<c>
-					<f>100</f>
+					<f>101</f>
 					<parameter>ИтогКоличество</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>101</f>
+					<f>102</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>100</f>
+					<f>101</f>
 					<parameter>ИтогСумма</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>101</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>101</f>
+					<f>102</f>
 				</c>
 			</c>
 			<c>
 				<c>
 					<f>102</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>103</f>
 					<parameter>ИтогСуммаСкидки</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>100</f>
+					<f>101</f>
 					<parameter>ИтогИтого</parameter>
 				</c>
 			</c>
@@ -1750,7 +1750,7 @@
 		<row>
 			<c>
 				<c>
-					<f>103</f>
+					<f>104</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1963,14 +1963,14 @@
 	<rowsItem>
 		<index>52</index>
 		<row>
-			<formatIndex>104</formatIndex>
+			<formatIndex>105</formatIndex>
 			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<drawing>
 		<drawingType>Picture</drawingType>
 		<id>3</id>
-		<formatIndex>105</formatIndex>
+		<formatIndex>106</formatIndex>
 		<beginRow>0</beginRow>
 		<beginRowOffset>0</beginRowOffset>
 		<endRow>7</endRow>
@@ -1987,7 +1987,7 @@
 	<drawing>
 		<drawingType>Picture</drawingType>
 		<id>4</id>
-		<formatIndex>105</formatIndex>
+		<formatIndex>106</formatIndex>
 		<beginRow>49</beginRow>
 		<beginRowOffset>0</beginRowOffset>
 		<endRow>52</endRow>
@@ -2002,7 +2002,7 @@
 		<pictureIndex>2</pictureIndex>
 	</drawing>
 	<leftHeader>
-		<f>106</f>
+		<f>107</f>
 		<tl>
 			<v8:item>
 				<v8:lang>ru</v8:lang>
@@ -2012,23 +2012,23 @@
 		</tl>
 	</leftHeader>
 	<centerHeader>
-		<f>106</f>
+		<f>107</f>
 		<tl/>
 	</centerHeader>
 	<rightHeader>
-		<f>106</f>
+		<f>107</f>
 		<tl/>
 	</rightHeader>
 	<leftFooter>
-		<f>107</f>
+		<f>108</f>
 		<tl/>
 	</leftFooter>
 	<centerFooter>
-		<f>107</f>
+		<f>108</f>
 		<tl/>
 	</centerFooter>
 	<rightFooter>
-		<f>107</f>
+		<f>108</f>
 		<tl/>
 	</rightFooter>
 	<templateMode>true</templateMode>
@@ -2959,6 +2959,14 @@
 		<fillType>Parameter</fillType>
 	</format>
 	<format>
+		<font>2</font>
+		<border>1</border>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<fillType>Parameter</fillType>
+		<format/>
+	</format>
+	<format>
 		<font>3</font>
 		<border>1</border>
 		<horizontalAlignment>Right</horizontalAlignment>
@@ -2990,6 +2998,12 @@
 		<horizontalAlignment>Right</horizontalAlignment>
 		<verticalAlignment>Center</verticalAlignment>
 		<fillType>Parameter</fillType>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧДЦ=2</v8:content>
+			</v8:item>
+		</format>
 	</format>
 	<format>
 		<height>84</height>

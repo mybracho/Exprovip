@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2bca66cc-942e-46ac-acab-b66f7714fdf4">
+  <producedTypes>
+    <objectType typeId="6de57f8a-9a91-420b-9d2a-23be765daf57" valueTypeId="29817433-b2c4-45db-b9ac-c60831e66e39"/>
+    <managerType typeId="f91fe27c-48ff-4a08-a780-2b0baa24b145" valueTypeId="310a32ce-3a81-4f0e-8635-21401b1360bc"/>
+  </producedTypes>
+  <name>БлокировкаКарт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Блокировка карт</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.БлокировкаКарт.Form.Форма</defaultForm>
+  <attributes uuid="f7a59eef-7ce2-4ead-968e-173bd88382fe">
+    <name>Эмитент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эмитент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ЭтоПоставщик</name>
+      <value xsi:type="core:BooleanValue">
+        <value>true</value>
+      </value>
+    </choiceParameters>
+  </attributes>
+  <tabularSections uuid="6e4bb308-6b67-4ff1-924a-7b0cff56ca70">
+    <producedTypes>
+      <objectType typeId="381dc15d-297e-4249-b9b0-4e5f835a1af8" valueTypeId="7b4747e0-96fd-4c23-acec-57bf1ef62c2d"/>
+      <rowType typeId="0db0e8bc-4954-4618-ba8f-59ccef70e5c5" valueTypeId="8fe9df65-f384-4efe-8f91-1d8626599f76"/>
+    </producedTypes>
+    <name>Карты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карты</value>
+    </synonym>
+    <attributes uuid="ae4eb9b4-7d9d-4d94-b110-5b69e1be939a">
+      <name>Карта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Карта</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Карточки</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="bb145a15-c7dd-4fb1-b411-72b99939821e">
+      <name>Эмитент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Эмитент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.ЭтоПоставщик</name>
+        <value xsi:type="core:BooleanValue">
+          <value>true</value>
+        </value>
+      </choiceParameters>
+    </attributes>
+    <attributes uuid="667f3aaf-5474-490d-acf9-8243ca5d81b7">
+      <name>Владелец</name>
+      <synonym>
+        <key>ru</key>
+        <value>Владелец</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="3604fdbb-d79b-4609-8df0-2d9decd2be02">
+      <name>ДатаБлокировкиРазблокировки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата блокировки разблокировки</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="de4b3cbf-7310-45d9-9fb4-b9cb45c8b0fb">
+      <name>Архивная</name>
+      <synonym>
+        <key>ru</key>
+        <value>Архивная</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="42abfe39-dee5-4d47-b415-8fe634b10e4c">
+      <name>Обработать</name>
+      <synonym>
+        <key>ru</key>
+        <value>Обработать</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="3cea5c0d-9380-4bab-8a36-02cd9c9a246e">
+      <name>РезультатОбработки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Результат обработки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="424c919e-2a6a-4e60-83ad-d4dcac8a8949">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

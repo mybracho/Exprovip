@@ -1094,6 +1094,7 @@
   <dataProcessors>DataProcessor.ПереносДанныхИз77</dataProcessors>
   <dataProcessors>DataProcessor.РеестрФактур</dataProcessors>
   <dataProcessors>DataProcessor.ОбменССайтом</dataProcessors>
+  <dataProcessors>DataProcessor.БлокировкаКарт</dataProcessors>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
   <informationRegisters>InformationRegister.БлокировкиСеансовОбластейДанных</informationRegisters>
   <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>

@@ -35,6 +35,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Карточки.Form.ItemForm</defaultObjectForm>
+  <defaultListForm>Catalog.Карточки.Form.ФормаСписка</defaultListForm>
   <attributes uuid="7fe5745f-7739-496e-bd67-7ca9ba787e70">
     <name>Пин</name>
     <synonym>
@@ -124,6 +125,15 @@
     <synonym>
       <key>ru</key>
       <value>Item form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e04c8eb4-7575-4d56-b593-a088f122fd45">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

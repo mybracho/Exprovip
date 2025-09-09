@@ -11,25 +11,6 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.БлокировкаКарт.Form.Форма</defaultForm>
-  <attributes uuid="f7a59eef-7ce2-4ead-968e-173bd88382fe">
-    <name>Эмитент</name>
-    <synonym>
-      <key>ru</key>
-      <value>Эмитент</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Контрагенты</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <choiceParameters>
-      <name>Отбор.ЭтоПоставщик</name>
-      <value xsi:type="core:BooleanValue">
-        <value>true</value>
-      </value>
-    </choiceParameters>
-  </attributes>
   <tabularSections uuid="6e4bb308-6b67-4ff1-924a-7b0cff56ca70">
     <producedTypes>
       <objectType typeId="381dc15d-297e-4249-b9b0-4e5f835a1af8" valueTypeId="7b4747e0-96fd-4c23-acec-57bf1ef62c2d"/>
@@ -64,6 +45,7 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
       <choiceParameters>
         <name>Отбор.ЭтоПоставщик</name>
         <value xsi:type="core:BooleanValue">

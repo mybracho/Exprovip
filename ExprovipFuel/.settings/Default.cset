@@ -46,6 +46,9 @@
     "form-legacy-check-event-handler": {
       "enabled": false
     },
+    "constructor-function-return-section": {
+      "enabled": false
+    },
     "bsl-legacy-check-pragma-for-unused-method": {
       "enabled": false
     },

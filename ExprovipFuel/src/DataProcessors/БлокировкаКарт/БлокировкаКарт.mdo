@@ -21,6 +21,14 @@
       <key>ru</key>
       <value>Карты</value>
     </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
     <attributes uuid="ae4eb9b4-7d9d-4d94-b110-5b69e1be939a">
       <name>Карта</name>
       <synonym>

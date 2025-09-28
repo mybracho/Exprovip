@@ -714,6 +714,89 @@
       <dataHistory>Use</dataHistory>
     </attributes>
   </tabularSections>
+  <tabularSections uuid="f319aaed-ff4f-4bfd-b07f-425c4e3e69e1">
+    <producedTypes>
+      <objectType typeId="4446b833-22d3-42c3-8f8a-02b1d20df034" valueTypeId="4f8dac07-f5ec-407c-bd0a-f18d54dc9256"/>
+      <rowType typeId="a1db08cc-de5e-4e94-919b-02c4253444bc" valueTypeId="0086a157-13c5-4f2e-a277-0b8c6e3b9238"/>
+    </producedTypes>
+    <name>ЛимитыПоКартам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лимиты по картам</value>
+    </synonym>
+    <attributes uuid="908cf2f4-3511-471c-9859-f12e76ef2b5a">
+      <name>Продукт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Продукт</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b21ca450-0bd8-4b17-bff6-0442ebf23635">
+      <name>Эмитент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Эмитент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameters>
+        <name>Отбор.ЭтоПоставщик</name>
+        <value xsi:type="core:BooleanValue">
+          <value>true</value>
+        </value>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fbfb7986-595d-41ad-b1dd-d2d6926ce35a">
+      <name>ЛимитВМесяц</name>
+      <synonym>
+        <key>ru</key>
+        <value>Лимит в месяц</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6d4b07e3-973f-42db-ba0b-9f8610d592e3">
+      <name>ЛимитВДень</name>
+      <synonym>
+        <key>ru</key>
+        <value>Лимит в день</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <forms uuid="c4cad8ed-9f98-4df7-97f7-6bf15231a5ab">
     <name>ФормаЭлемента</name>
     <synonym>

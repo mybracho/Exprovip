@@ -64,6 +64,9 @@
     "bsl-legacy-check-variable-names-are-unique-method": {
       "enabled": false
     },
+    "doc-comment-field-type-strict": {
+      "enabled": false
+    },
     "bsl-legacy-check-for-each-statetement-collection": {
       "enabled": false
     },
@@ -296,6 +299,9 @@
       "enabled": false
     },
     "bsl-legacy-check-return-statement": {
+      "enabled": false
+    },
+    "doc-comment-field-type": {
       "enabled": false
     },
     "doc-comment-description-ends-on-dot": {

@@ -1055,6 +1055,7 @@
   <enums>Enum.ЦветностиИзображения</enums>
   <enums>Enum.ТипыЗаписиКнигиДоходовИРасходов</enums>
   <enums>Enum.МодулиОбмена</enums>
+  <enums>Enum.ВариантыОбменаССайтом</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.ДатыЗапретаИзменения</reports>
   <reports>Report.ДвиженияДокумента</reports>

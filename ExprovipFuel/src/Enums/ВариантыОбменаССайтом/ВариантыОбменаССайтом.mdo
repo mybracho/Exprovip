@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8eb64607-cf4b-49f7-aed5-f1d884936194">
+  <producedTypes>
+    <refType typeId="79232841-cc16-4cdc-b40e-39eb9d12acaf" valueTypeId="fe7936d5-9624-463e-a3a8-b66dc2374e50"/>
+    <listType typeId="0cf71b80-e2a3-4a22-95f6-ef9bf5851511" valueTypeId="ffa1d776-f894-480f-8a35-a73b0edcb003"/>
+    <managerType typeId="8a995dae-41a1-4e95-ac03-bab27aab5463" valueTypeId="778daefc-b80f-43dd-a72a-c68d5f89820e"/>
+  </producedTypes>
+  <name>ВариантыОбменаССайтом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты обмена с сайтом</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f54a0fdc-4956-4d79-8231-a443e9733177">
+    <name>ПапкаНаДиске</name>
+    <synonym>
+      <key>ru</key>
+      <value>Папка на диске</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4af7586b-5d79-429b-84bf-218a78a02c4e">
+    <name>API</name>
+    <synonym>
+      <key>ru</key>
+      <value>API</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

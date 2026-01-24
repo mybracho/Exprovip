@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b39cc764-ccf0-43c0-b5c0-f751b2f22533">
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b39cc764-ccf0-43c0-b5c0-f751b2f22533">
   <producedTypes>
     <objectType typeId="ba031d2c-51e2-4f04-a710-cf7f71948773" valueTypeId="4f53c6fb-26b1-452d-9f9e-c123fd3e76c1"/>
     <managerType typeId="ae22089b-9b6c-4f40-8f85-60c8e75e8323" valueTypeId="73212865-631f-4d1c-9721-c188f467d82b"/>
@@ -11,6 +11,19 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ОбменССайтом.Form.Форма</defaultForm>
+  <attributes uuid="a1e752f0-936a-44f3-9f54-9251661e6aea">
+    <name>ВариантОбменаССайтом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант обмена с сайтом</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВариантыОбменаССайтом</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
   <forms uuid="4e575e94-546d-4f79-95f8-8b3114707bf8">
     <name>Форма</name>
     <synonym>

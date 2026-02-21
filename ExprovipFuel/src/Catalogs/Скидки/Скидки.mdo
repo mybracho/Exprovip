@@ -31,6 +31,7 @@
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Скидки.Form.ItemForm</defaultObjectForm>
   <defaultListForm>Catalog.Скидки.Form.ListForm</defaultListForm>
+  <defaultChoiceForm>Catalog.Скидки.Form.ФормаВыбора</defaultChoiceForm>
   <attributes uuid="aa2532a2-3609-4103-a740-44adb373d463">
     <name>Идентификатор77</name>
     <synonym>
@@ -63,6 +64,15 @@
     <synonym>
       <key>ru</key>
       <value>List form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="deb91d0b-52f2-484a-9477-d94008e4464d">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

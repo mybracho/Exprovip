@@ -533,6 +533,20 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
+    <attributes uuid="7dacefad-adde-47f1-88c8-c1d9f2d0da10">
+      <name>ПримененнаяСкидка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Примененная скидка</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ВидСкидки</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
   </tabularSections>
   <templates uuid="b2500d33-6780-4184-9dbd-0e7ee6858faa">
     <name>ПечатьФактуры</name>

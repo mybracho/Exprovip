@@ -10,7 +10,7 @@
     </userVisible>
     <title>
       <key>ru</key>
-      <value>User settings group</value>
+      <value>Группа пользовательских настроек</value>
     </title>
     <verticalStretch>false</verticalStretch>
     <extendedTooltip>
@@ -48,23 +48,19 @@
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
-      <name>Владелец</name>
+      <name>Период</name>
       <id>16</id>
-      <title>
-        <key>ru</key>
-        <value>Место транзакции</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Owner</segments>
+        <segments>Список.Период</segments>
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>ВладелецРасширеннаяПодсказка</name>
+        <name>ПериодРасширеннаяПодсказка</name>
         <id>18</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -74,7 +70,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВладелецКонтекстноеМеню</name>
+        <name>ПериодКонтекстноеМеню</name>
         <id>17</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -89,7 +85,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>Контрагент</name>
+      <name>МестоТранзации</name>
       <id>19</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -97,10 +93,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Контрагент</segments>
+        <segments>Список.МестоТранзации</segments>
       </dataPath>
       <extendedTooltip>
-        <name>КонтрагентРасширеннаяПодсказка</name>
+        <name>МестоТранзацииРасширеннаяПодсказка</name>
         <id>21</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -110,7 +106,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>КонтрагентКонтекстноеМеню</name>
+        <name>МестоТранзацииКонтекстноеМеню</name>
         <id>20</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -150,18 +146,14 @@
         <id>23</id>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>InputField</type>
+      <type>LabelField</type>
       <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
+      <extInfo xsi:type="form:LabelFieldExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
       </extInfo>
     </items>
     <commandBarLocation>None</commandBarLocation>
@@ -276,7 +268,6 @@
     <horizontalStretch>true</horizontalStretch>
     <verticalStretch>true</verticalStretch>
     <enableStartDrag>true</enableStartDrag>
-    <enableDrag>true</enableDrag>
     <fileDragMode>AsFileRef</fileDragMode>
     <rowPictureDataPath xsi:type="form:DataPath">
       <segments>Список.DefaultPicture</segments>
@@ -323,21 +314,15 @@
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
-	УсловияСкидокНаЗаправках.Ссылка,
-	УсловияСкидокНаЗаправках.ПометкаУдаления,
-	УсловияСкидокНаЗаправках.Владелец,
-	УсловияСкидокНаЗаправках.Код,
-	УсловияСкидокНаЗаправках.Контрагент,
-	УсловияСкидокНаЗаправках.Идентификатор77,
-	УсловияСкидокНаЗаправках.Предопределенный,
-	УсловияСкидокНаЗаправках.ИмяПредопределенныхДанных,
-	УсловияСкидокНаЗаправкахИсторияСрезПоследних.Скидка
+	СкидкиМестТранзакций.Период КАК Период,
+	СкидкиМестТранзакций.МестоТранзации КАК МестоТранзации,
+	СкидкиМестТранзакций.Скидка КАК Скидка,
+	ЗначенияСкидокСрезПоследних.ЗначениеСкидки КАК ЗначениеСкидки
 ИЗ
-	Справочник.УсловияСкидокНаЗаправках КАК УсловияСкидокНаЗаправках
-		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.УсловияСкидокНаЗаправкахИстория.СрезПоследних КАК
-			УсловияСкидокНаЗаправкахИсторияСрезПоследних
-		ПО УсловияСкидокНаЗаправках.Ссылка = УсловияСкидокНаЗаправкахИсторияСрезПоследних.УсловияСкидок</queryText>
-      <mainTable>Catalog.УсловияСкидокНаЗаправках</mainTable>
+	РегистрСведений.СкидкиМестТранзакций КАК СкидкиМестТранзакций
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ЗначенияСкидок.СрезПоследних КАК ЗначенияСкидокСрезПоследних
+		ПО СкидкиМестТранзакций.Скидка = ЗначенияСкидокСрезПоследних.Скидка</queryText>
+      <mainTable>InformationRegister.СкидкиМестТранзакций</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>

@@ -1056,6 +1056,7 @@
   <enums>Enum.ТипыЗаписиКнигиДоходовИРасходов</enums>
   <enums>Enum.МодулиОбмена</enums>
   <enums>Enum.ВариантыОбменаССайтом</enums>
+  <enums>Enum.ВидСкидки</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.ДатыЗапретаИзменения</reports>
   <reports>Report.ДвиженияДокумента</reports>

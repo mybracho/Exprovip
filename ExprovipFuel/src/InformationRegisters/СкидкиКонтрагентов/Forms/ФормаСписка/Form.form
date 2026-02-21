@@ -10,7 +10,7 @@
     </userVisible>
     <title>
       <key>ru</key>
-      <value>User settings group</value>
+      <value>Группа пользовательских настроек</value>
     </title>
     <verticalStretch>false</verticalStretch>
     <extendedTooltip>
@@ -48,24 +48,19 @@
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
-      <name>Владелец</name>
-      <id>16</id>
-      <title>
-        <key>ru</key>
-        <value>Место транзакции</value>
-      </title>
+      <name>Период</name>
+      <id>31</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Owner</segments>
+        <segments>Список.Период</segments>
       </dataPath>
-      <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>ВладелецРасширеннаяПодсказка</name>
-        <id>18</id>
+        <name>ПериодРасширеннаяПодсказка</name>
+        <id>33</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -74,12 +69,12 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВладелецКонтекстноеМеню</name>
-        <id>17</id>
+        <name>ПериодКонтекстноеМеню</name>
+        <id>32</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>LabelField</type>
-      <editMode>Enter</editMode>
+      <editMode>EnterOnInput</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
@@ -125,8 +120,44 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>Скидка</name>
+      <name>Поставщик</name>
       <id>22</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Поставщик</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ПоставщикРасширеннаяПодсказка</name>
+        <id>24</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ПоставщикКонтекстноеМеню</name>
+        <id>23</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Скидка</name>
+      <id>25</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -137,7 +168,7 @@
       </dataPath>
       <extendedTooltip>
         <name>СкидкаРасширеннаяПодсказка</name>
-        <id>24</id>
+        <id>27</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -147,21 +178,53 @@
       </extendedTooltip>
       <contextMenu>
         <name>СкидкаКонтекстноеМеню</name>
-        <id>23</id>
+        <id>26</id>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>InputField</type>
+      <type>LabelField</type>
       <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
+      <extInfo xsi:type="form:LabelFieldExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ЗначениеСкидки</name>
+      <id>28</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ЗначениеСкидки</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ЗначениеСкидкиРасширеннаяПодсказка</name>
+        <id>30</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ЗначениеСкидкиКонтекстноеМеню</name>
+        <id>29</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>EnterOnInput</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
       </extInfo>
     </items>
     <commandBarLocation>None</commandBarLocation>
@@ -276,7 +339,6 @@
     <horizontalStretch>true</horizontalStretch>
     <verticalStretch>true</verticalStretch>
     <enableStartDrag>true</enableStartDrag>
-    <enableDrag>true</enableDrag>
     <fileDragMode>AsFileRef</fileDragMode>
     <rowPictureDataPath xsi:type="form:DataPath">
       <segments>Список.DefaultPicture</segments>
@@ -323,21 +385,16 @@
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
-	УсловияСкидокНаЗаправках.Ссылка,
-	УсловияСкидокНаЗаправках.ПометкаУдаления,
-	УсловияСкидокНаЗаправках.Владелец,
-	УсловияСкидокНаЗаправках.Код,
-	УсловияСкидокНаЗаправках.Контрагент,
-	УсловияСкидокНаЗаправках.Идентификатор77,
-	УсловияСкидокНаЗаправках.Предопределенный,
-	УсловияСкидокНаЗаправках.ИмяПредопределенныхДанных,
-	УсловияСкидокНаЗаправкахИсторияСрезПоследних.Скидка
+	СкидкиКонтрагентов.Период КАК Период,
+	СкидкиКонтрагентов.Контрагент КАК Контрагент,
+	СкидкиКонтрагентов.Поставщик КАК Поставщик,
+	СкидкиКонтрагентов.Скидка КАК Скидка,
+	ЗначенияСкидокСрезПоследних.ЗначениеСкидки КАК ЗначениеСкидки
 ИЗ
-	Справочник.УсловияСкидокНаЗаправках КАК УсловияСкидокНаЗаправках
-		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.УсловияСкидокНаЗаправкахИстория.СрезПоследних КАК
-			УсловияСкидокНаЗаправкахИсторияСрезПоследних
-		ПО УсловияСкидокНаЗаправках.Ссылка = УсловияСкидокНаЗаправкахИсторияСрезПоследних.УсловияСкидок</queryText>
-      <mainTable>Catalog.УсловияСкидокНаЗаправках</mainTable>
+	РегистрСведений.СкидкиКонтрагентов КАК СкидкиКонтрагентов
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ЗначенияСкидок.СрезПоследних КАК ЗначенияСкидокСрезПоследних
+		ПО СкидкиКонтрагентов.Скидка = ЗначенияСкидокСрезПоследних.Скидка</queryText>
+      <mainTable>InformationRegister.СкидкиКонтрагентов</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>

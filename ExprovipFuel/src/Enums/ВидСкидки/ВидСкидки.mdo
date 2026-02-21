@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60d95678-3d68-41e1-8f5c-c9278048370d">
+  <producedTypes>
+    <refType typeId="a06aa895-b80c-4db5-b081-e6140a5fc901" valueTypeId="3314efad-eb7b-457b-890d-0671688b3b0b"/>
+    <listType typeId="aca31490-b24b-4ad3-9056-2d2a23fce9a3" valueTypeId="900664ed-62a2-40f6-abcb-e843d4a5ca1d"/>
+    <managerType typeId="9395fac5-82bb-48eb-988f-9409df97f5d2" valueTypeId="35200c5d-c0f3-4dca-bc1a-21c171995d68"/>
+  </producedTypes>
+  <name>ВидСкидки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид скидки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6d29dba9-eeee-446e-a778-78ec48951c26">
+    <name>НаЗаправке</name>
+    <synonym>
+      <key>ru</key>
+      <value>На заправке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d52d5f1a-6c06-445d-970a-b8c0196a74a0">
+    <name>НаКлиенте</name>
+    <synonym>
+      <key>ru</key>
+      <value>На клиенте</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="da5fd130-b3c6-4a52-b125-f7c5217c6e68">
+    <name>НаКлиентеПоПоставщику</name>
+    <synonym>
+      <key>ru</key>
+      <value>На клиенте по поставщику</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="450fe00b-03d4-4b0b-87a2-a01590d86279">
+    <name>НаГруппеЗаправок</name>
+    <synonym>
+      <key>ru</key>
+      <value>На группе заправок</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -16,11 +16,6 @@
     <extendedTooltip>
       <name>СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка</name>
       <id>2</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -61,17 +56,12 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Code</segments>
+        <segments>Список.Код</segments>
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
         <name>КодРасширеннаяПодсказка</name>
         <id>18</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -82,11 +72,6 @@
       <contextMenu>
         <name>КодКонтекстноеМеню</name>
         <id>17</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>LabelField</type>
@@ -141,16 +126,11 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Description</segments>
+        <segments>Список.Наименование</segments>
       </dataPath>
       <extendedTooltip>
         <name>НаименованиеРасширеннаяПодсказка</name>
         <id>21</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -161,11 +141,6 @@
       <contextMenu>
         <name>НаименованиеКонтекстноеМеню</name>
         <id>20</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>LabelField</type>
@@ -192,11 +167,6 @@
       <extendedTooltip>
         <name>ЛогинРасширеннаяПодсказка</name>
         <id>24</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -207,11 +177,6 @@
       <contextMenu>
         <name>ЛогинКонтекстноеМеню</name>
         <id>23</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>LabelField</type>
@@ -238,11 +203,6 @@
       <extendedTooltip>
         <name>ЭтоКлиентРасширеннаяПодсказка</name>
         <id>27</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -253,11 +213,6 @@
       <contextMenu>
         <name>ЭтоКлиентКонтекстноеМеню</name>
         <id>26</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>CheckBoxField</type>
@@ -281,11 +236,6 @@
       <extendedTooltip>
         <name>ЭтоПоставщикРасширеннаяПодсказка</name>
         <id>30</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -296,11 +246,6 @@
       <contextMenu>
         <name>ЭтоПоставщикКонтекстноеМеню</name>
         <id>29</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>CheckBoxField</type>
@@ -324,11 +269,6 @@
       <extendedTooltip>
         <name>СкидкаРасширеннаяПодсказка</name>
         <id>33</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -339,11 +279,6 @@
       <contextMenu>
         <name>СкидкаКонтекстноеМеню</name>
         <id>32</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
@@ -378,11 +313,6 @@
       <extendedTooltip>
         <name>НеИспользоватьОсобыеУсловияРасширеннаяПодсказка</name>
         <id>36</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -393,11 +323,6 @@
       <contextMenu>
         <name>НеИспользоватьОсобыеУсловияКонтекстноеМеню</name>
         <id>35</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>CheckBoxField</type>
@@ -411,29 +336,14 @@
     <autoCommandBar>
       <name>СписокКоманднаяПанель</name>
       <id>5</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <horizontalAlign>Left</horizontalAlign>
     </autoCommandBar>
     <searchStringAddition>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <name>СписокСтрокаПоиска</name>
       <id>7</id>
       <extendedTooltip>
         <name>СписокСтрокаПоискаРасширеннаяПодсказка</name>
         <id>9</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -444,11 +354,6 @@
       <contextMenu>
         <name>СписокСтрокаПоискаКонтекстноеМеню</name>
         <id>8</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <source>Список</source>
@@ -457,21 +362,11 @@
       </extInfo>
     </searchStringAddition>
     <viewStatusAddition>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <name>СписокСостояниеПросмотра</name>
       <id>10</id>
       <extendedTooltip>
         <name>СписокСостояниеПросмотраРасширеннаяПодсказка</name>
         <id>12</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -482,11 +377,6 @@
       <contextMenu>
         <name>СписокСостояниеПросмотраКонтекстноеМеню</name>
         <id>11</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
@@ -496,21 +386,11 @@
       </extInfo>
     </viewStatusAddition>
     <searchControlAddition>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <name>СписокУправлениеПоиском</name>
       <id>13</id>
       <extendedTooltip>
         <name>СписокУправлениеПоискомРасширеннаяПодсказка</name>
         <id>15</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -521,11 +401,6 @@
       <contextMenu>
         <name>СписокУправлениеПоискомКонтекстноеМеню</name>
         <id>14</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
@@ -537,11 +412,6 @@
     <extendedTooltip>
       <name>СписокРасширеннаяПодсказка</name>
       <id>6</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -552,11 +422,6 @@
     <contextMenu>
       <name>СписокКонтекстноеМеню</name>
       <id>4</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <representation>HierarchicalList</representation>
@@ -603,11 +468,6 @@
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
@@ -635,33 +495,34 @@
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
-	Контрагенты.Ссылка,
-	Контрагенты.Активный,
-	Контрагенты.ПометкаУдаления,
-	Контрагенты.Родитель,
-	Контрагенты.ЭтоГруппа,
-	Контрагенты.Код,
-	Контрагенты.Наименование,
-	Контрагенты.НаименованиеПолное,
-	Контрагенты.ИНН,
-	Контрагенты.КПП,
-	Контрагенты.Комментарий,
-	Контрагенты.ПочтовыйКод,
-	Контрагенты.НИП,
-	Контрагенты.ЮридическийКод,
-	Контрагенты.ПутьДляВыгрузки,
-	Контрагенты.Логин,
-	Контрагенты.Идентификатор77,
-	Контрагенты.ЭтоКлиент,
-	Контрагенты.ЭтоПоставщик,
-	Контрагенты.Предопределенный,
-	Контрагенты.ИмяПредопределенныхДанных,
-	ОсобыеУсловияКонтрагентовСрезПоследних.НеИспользоватьОсобыеУсловия,
-	СкидкиКонтрагентовСрезПоследних.Скидка
+	Контрагенты.Ссылка КАК Ссылка,
+	Контрагенты.Активный КАК Активный,
+	Контрагенты.ПометкаУдаления КАК ПометкаУдаления,
+	Контрагенты.Родитель КАК Родитель,
+	Контрагенты.ЭтоГруппа КАК ЭтоГруппа,
+	Контрагенты.Код КАК Код,
+	Контрагенты.Наименование КАК Наименование,
+	Контрагенты.НаименованиеПолное КАК НаименованиеПолное,
+	Контрагенты.ИНН КАК ИНН,
+	Контрагенты.КПП КАК КПП,
+	Контрагенты.Комментарий КАК Комментарий,
+	Контрагенты.ПочтовыйКод КАК ПочтовыйКод,
+	Контрагенты.НИП КАК НИП,
+	Контрагенты.ЮридическийКод КАК ЮридическийКод,
+	Контрагенты.ПутьДляВыгрузки КАК ПутьДляВыгрузки,
+	Контрагенты.Логин КАК Логин,
+	Контрагенты.Идентификатор77 КАК Идентификатор77,
+	Контрагенты.ЭтоКлиент КАК ЭтоКлиент,
+	Контрагенты.ЭтоПоставщик КАК ЭтоПоставщик,
+	Контрагенты.Предопределенный КАК Предопределенный,
+	Контрагенты.ИмяПредопределенныхДанных КАК ИмяПредопределенныхДанных,
+	ОсобыеУсловияКонтрагентовСрезПоследних.НеИспользоватьОсобыеУсловия КАК НеИспользоватьОсобыеУсловия,
+	СкидкиКонтрагентовСрезПоследних.Скидка КАК Скидка
 ИЗ
 	Справочник.Контрагенты КАК Контрагенты
 		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СкидкиКонтрагентов.СрезПоследних КАК СкидкиКонтрагентовСрезПоследних
-		ПО Контрагенты.Ссылка = СкидкиКонтрагентовСрезПоследних.Контрагент
+		ПО (Контрагенты.Ссылка = СкидкиКонтрагентовСрезПоследних.Контрагент
+				И СкидкиКонтрагентовСрезПоследних.Поставщик = ЗНАЧЕНИЕ(Справочник.Контрагенты.ПустаяСсылка))
 		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ОсобыеУсловияКонтрагентов.СрезПоследних КАК ОсобыеУсловияКонтрагентовСрезПоследних
 		ПО Контрагенты.Ссылка = ОсобыеУсловияКонтрагентовСрезПоследних.Контрагент</queryText>
       <mainTable>Catalog.Контрагенты</mainTable>

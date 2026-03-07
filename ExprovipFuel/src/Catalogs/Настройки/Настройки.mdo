@@ -235,6 +235,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="34ff69a7-23a4-4900-950d-267bb156f58a">
+    <name>APIРесурсВыгрузкиБаланса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурс выгрузки баланса (API)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="48188756-1b0b-4540-8d86-1fe361996da6">
     <name>ФормаЭлемента</name>
     <synonym>

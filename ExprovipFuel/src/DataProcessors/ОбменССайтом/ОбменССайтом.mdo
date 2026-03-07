@@ -24,6 +24,21 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
   </attributes>
+  <attributes uuid="b6b204d7-bdac-4b73-ae85-714190b57427">
+    <name>ДатаБалансов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата балансов</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <forms uuid="4e575e94-546d-4f79-95f8-8b3114707bf8">
     <name>Форма</name>
     <synonym>

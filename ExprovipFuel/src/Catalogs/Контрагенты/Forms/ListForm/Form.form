@@ -332,6 +332,42 @@
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
     </items>
+    <items xsi:type="form:FormField">
+      <name>ИД</name>
+      <id>43</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ИД</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ИДРасширеннаяПодсказка</name>
+        <id>45</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ИДКонтекстноеМеню</name>
+        <id>44</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>EnterOnInput</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
     <commandBarLocation>None</commandBarLocation>
     <autoCommandBar>
       <name>СписокКоманднаяПанель</name>
@@ -517,12 +553,13 @@
 	Контрагенты.Предопределенный КАК Предопределенный,
 	Контрагенты.ИмяПредопределенныхДанных КАК ИмяПредопределенныхДанных,
 	ОсобыеУсловияКонтрагентовСрезПоследних.НеИспользоватьОсобыеУсловия КАК НеИспользоватьОсобыеУсловия,
-	СкидкиКонтрагентовСрезПоследних.Скидка КАК Скидка
+	СкидкиКонтрагентовСрезПоследних.Скидка КАК Скидка,
+	ПРЕДСТАВЛЕНИЕ(УНИКАЛЬНЫЙИДЕНТИФИКАТОР(Контрагенты.Ссылка)) КАК ИД
 ИЗ
 	Справочник.Контрагенты КАК Контрагенты
 		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СкидкиКонтрагентов.СрезПоследних КАК СкидкиКонтрагентовСрезПоследних
-		ПО (Контрагенты.Ссылка = СкидкиКонтрагентовСрезПоследних.Контрагент
-				И СкидкиКонтрагентовСрезПоследних.Поставщик = ЗНАЧЕНИЕ(Справочник.Контрагенты.ПустаяСсылка))
+		ПО Контрагенты.Ссылка = СкидкиКонтрагентовСрезПоследних.Контрагент
+		И СкидкиКонтрагентовСрезПоследних.Поставщик = ЗНАЧЕНИЕ(Справочник.Контрагенты.ПустаяСсылка)
 		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ОсобыеУсловияКонтрагентов.СрезПоследних КАК ОсобыеУсловияКонтрагентовСрезПоследних
 		ПО Контрагенты.Ссылка = ОсобыеУсловияКонтрагентовСрезПоследних.Контрагент</queryText>
       <mainTable>Catalog.Контрагенты</mainTable>

@@ -39,6 +39,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Настройки.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Настройки.Form.ФормаСписка</defaultListForm>
   <attributes uuid="cacc0803-e60b-4758-90c9-6e3af80b4af0">
     <name>EUR</name>
     <synonym>
@@ -253,11 +254,74 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="042ca10c-ff4f-44fd-9b89-5f1deec14dbf">
+    <name>APIРесурсУдалениеДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурс удаление данных (API)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fc78562e-204a-4027-bce6-7aa4ba6caa69">
+    <name>APIРесурсУдалениеКарточек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурс удаление карточек (API)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5fdfcc53-b72c-4a53-b11e-4006cd1380da">
+    <name>APIKey</name>
+    <synonym>
+      <key>ru</key>
+      <value>API Key</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="48188756-1b0b-4540-8d86-1fe361996da6">
     <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d4a21808-f3a2-488f-9444-3b96ac0a710e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

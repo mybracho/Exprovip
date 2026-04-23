@@ -185,7 +185,7 @@
 			
 			КодЗаправки		= Строка(Транзакция.RealisationObjectNumber);
 
-			ПродуктСтрокой = Транзакция.RealisationProductName;	
+			ПродуктСтрокой = СокрЛП(Транзакция.RealisationProductName);	
 			
 			Коэффициент = 1;
 			

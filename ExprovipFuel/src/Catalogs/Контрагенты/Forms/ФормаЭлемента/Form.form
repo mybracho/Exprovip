@@ -1515,6 +1515,10 @@
       <value>Выгрузить информацию по клиенту на сайт</value>
     </title>
     <id>2</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Отправляет на сайт информацию о всех действующих картах и лимитах</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>

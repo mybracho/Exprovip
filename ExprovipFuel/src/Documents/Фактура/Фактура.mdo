@@ -569,4 +569,11 @@
       <value>Печать фактуры8</value>
     </synonym>
   </templates>
+  <templates uuid="e66b7e60-dc32-487a-b666-1dc0b36cde1d">
+    <name>РасхожденияШаблонаФактурыИФактуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расхождения шаблона фактуры и фактуры</value>
+    </synonym>
+  </templates>
 </mdclass:Document>

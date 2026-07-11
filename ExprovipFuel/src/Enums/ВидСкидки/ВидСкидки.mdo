@@ -56,4 +56,18 @@
       <value>На группе заправок</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="5dd13c8d-a8d6-4046-9677-e6a91141f43e">
+    <name>НаКлиентеПоНоменклатуре</name>
+    <synonym>
+      <key>ru</key>
+      <value>На клиенте по номенклатуре</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="17435314-b34a-4be3-ab14-1e3400d8c937">
+    <name>НаКлиентеПоПоставщикуИНоменклатуре</name>
+    <synonym>
+      <key>ru</key>
+      <value>На клиенте по поставщику и номенклатуре</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

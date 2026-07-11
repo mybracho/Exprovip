@@ -129,9 +129,7 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
-      <fillValue xsi:type="core:StringValue">
-        <value></value>
-      </fillValue>
+      <fillValue xsi:type="core:StringValue"/>
     </attributes>
     <attributes uuid="90effb24-7e60-483c-9d02-6a3585e2a929">
       <name>Ошибка</name>

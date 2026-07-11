@@ -64,9 +64,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <attributes uuid="9ef01e37-030a-44b7-824b-110e0f5a88f3">
     <name>КлючПотока</name>
@@ -126,9 +124,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <attributes uuid="c347e3a2-d6d9-46a0-971f-ec56a45dcbe8">
     <name>ПараметрыМетода</name>

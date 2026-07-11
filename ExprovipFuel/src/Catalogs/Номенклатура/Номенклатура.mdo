@@ -156,6 +156,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="a731962b-30a3-4b6f-a4b0-11ed128dc44c">
+    <name>Активный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="f8cde8fe-4557-484f-bdb1-03d9dd1b440e">
     <producedTypes>
       <objectType typeId="b97eb5f5-99f0-46d0-82e7-363f2a83b834" valueTypeId="995a3870-2d1e-4472-b280-63bb075b4f3b"/>

@@ -326,6 +326,40 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="605604d8-c362-4934-a717-abcea888c519">
+    <name>ПарольАрхиваПриОбмене</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль архива при обмене</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a68ddb2f-9d15-48a0-8033-cf8a18e2aa97">
+    <name>APIРесурсВыгрузкиПаролей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурс выгрузки паролей (API)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="48188756-1b0b-4540-8d86-1fe361996da6">
     <name>ФормаЭлемента</name>
     <synonym>

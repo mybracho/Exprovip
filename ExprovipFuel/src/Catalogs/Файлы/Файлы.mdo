@@ -83,9 +83,7 @@
       <key>ru</key>
       <value>Имя файла (без расширения)</value>
     </toolTip>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -105,6 +103,8 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <characteristics>
+    <keyField>0</keyField>
+    <typesFilterField>0</typesFilterField>
     <typesFilterValue xsi:type="core:StringValue">
       <value>Справочник_Файлы</value>
     </typesFilterValue>
@@ -118,11 +118,16 @@
     <multipleValuesOrderField>-1</multipleValuesOrderField>
   </characteristics>
   <characteristics>
+    <keyField>0</keyField>
+    <typesFilterField>0</typesFilterField>
     <typesFilterValue xsi:type="core:StringValue">
       <value>Справочник_Файлы</value>
     </typesFilterValue>
     <dataPathField>-1</dataPathField>
     <multipleValuesUseField>-1</multipleValuesUseField>
+    <objectField>0</objectField>
+    <typeField>0</typeField>
+    <valueField>0</valueField>
     <multipleValuesKeyField>-1</multipleValuesKeyField>
     <multipleValuesOrderField>-1</multipleValuesOrderField>
   </characteristics>
@@ -329,9 +334,7 @@
     <multiLine>true</multiLine>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -522,9 +525,7 @@
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="9cda5c2c-f401-4f63-b445-cef160296e48">
@@ -564,9 +565,7 @@
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="b923c78f-d074-41b4-b832-086686258f19">
@@ -611,9 +610,7 @@
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
     <indexing>Index</indexing>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -989,7 +986,6 @@
     </synonym>
     <comment>Открывает список файлов в папках</comment>
     <group>NavigationPanelOrdinary</group>
-    <commandParameterType/>
     <representation>Auto</representation>
   </commands>
   <commands uuid="2bc2ca58-6cc0-4d4b-8672-f9328c86c2c1">
